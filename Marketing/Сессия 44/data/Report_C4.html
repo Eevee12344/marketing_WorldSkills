@@ -1,0 +1,2160 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>b387f33adfe342c9bdb604067e61c11b</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown">
+<p>скачивем библиотеки</p>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install pandas</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install sklearn</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install <span class="op">-</span>U scikit<span class="op">-</span>learn</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install numpy</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install matplotlib</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install dash pandas</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install seaborn</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install pandas</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install scipy</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install psycopg2<span class="op">-</span>binary</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install config</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install PyMySQL</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install sqlalchemy</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install numpy</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install matplotlib</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install seaborn</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install scipy</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Requirement already satisfied: pandas in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (2.2.1)
+Requirement already satisfied: numpy&lt;2,&gt;=1.26.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from pandas) (1.26.4)
+Requirement already satisfied: python-dateutil&gt;=2.8.2 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz&gt;=2020.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from pandas) (2024.1)
+Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from pandas) (2024.1)
+Requirement already satisfied: six&gt;=1.5 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from python-dateutil&gt;=2.8.2-&gt;pandas) (1.16.0)
+Collecting sklearn
+  Using cached sklearn-0.0.post12.tar.gz (2.6 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status &#39;done&#39;
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status &#39;error&#39;
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─&gt; [15 lines of output]
+      The &#39;sklearn&#39; PyPI package is deprecated, use &#39;scikit-learn&#39;
+      rather than &#39;sklearn&#39; for pip commands.
+      
+      Here is how to fix this error in the main use cases:
+      - use &#39;pip install scikit-learn&#39; rather than &#39;pip install sklearn&#39;
+      - replace &#39;sklearn&#39; by &#39;scikit-learn&#39; in your pip requirements files
+        (requirements.txt, setup.py, setup.cfg, Pipfile, etc ...)
+      - if the &#39;sklearn&#39; package is used by one of your dependencies,
+        it would be great if you take some time to track which package uses
+        &#39;sklearn&#39; instead of &#39;scikit-learn&#39; and report it to their issue tracker
+      - as a last resort, set the environment variable
+        SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True to avoid this error
+      
+      More information is available at
+      https://github.com/scikit-learn/sklearn-pypi-package
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: subprocess-exited-with-error
+
+× Getting requirements to build wheel did not run successfully.
+│ exit code: 1
+╰─&gt; See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Requirement already satisfied: scikit-learn in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (1.4.1.post1)
+Requirement already satisfied: numpy&lt;2.0,&gt;=1.19.5 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from scikit-learn) (1.26.4)
+Requirement already satisfied: scipy&gt;=1.6.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from scikit-learn) (1.12.0)
+Requirement already satisfied: joblib&gt;=1.2.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from scikit-learn) (1.3.2)
+Requirement already satisfied: threadpoolctl&gt;=2.0.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from scikit-learn) (3.3.0)
+Requirement already satisfied: numpy in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (1.26.4)
+Requirement already satisfied: matplotlib in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (3.8.3)
+Requirement already satisfied: contourpy&gt;=1.0.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (1.2.0)
+Requirement already satisfied: cycler&gt;=0.10 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (0.12.1)
+Requirement already satisfied: fonttools&gt;=4.22.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (4.50.0)
+Requirement already satisfied: kiwisolver&gt;=1.3.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (1.4.5)
+Requirement already satisfied: numpy&lt;2,&gt;=1.21 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (1.26.4)
+Requirement already satisfied: packaging&gt;=20.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (23.2)
+Requirement already satisfied: pillow&gt;=8 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (10.2.0)
+Requirement already satisfied: pyparsing&gt;=2.3.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (3.1.2)
+Requirement already satisfied: python-dateutil&gt;=2.7 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (2.9.0.post0)
+Requirement already satisfied: six&gt;=1.5 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib) (1.16.0)
+Requirement already satisfied: dash in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (2.16.1)
+Requirement already satisfied: pandas in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (2.2.1)
+Requirement already satisfied: Flask&lt;3.1,&gt;=1.0.4 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from dash) (3.0.2)
+Requirement already satisfied: Werkzeug&lt;3.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from dash) (3.0.1)
+Requirement already satisfied: plotly&gt;=5.0.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from dash) (5.20.0)
+Requirement already satisfied: dash-html-components==2.0.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from dash) (2.0.0)
+Requirement already satisfied: dash-core-components==2.0.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from dash) (2.0.0)
+Requirement already satisfied: dash-table==5.0.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from dash) (5.0.0)
+Requirement already satisfied: importlib-metadata in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from dash) (7.0.2)
+Requirement already satisfied: typing-extensions&gt;=4.1.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from dash) (4.10.0)
+Requirement already satisfied: requests in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from dash) (2.31.0)
+Requirement already satisfied: retrying in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from dash) (1.3.4)
+Requirement already satisfied: nest-asyncio in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from dash) (1.6.0)
+Requirement already satisfied: setuptools in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from dash) (69.2.0)
+Requirement already satisfied: numpy&lt;2,&gt;=1.26.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from pandas) (1.26.4)
+Requirement already satisfied: python-dateutil&gt;=2.8.2 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz&gt;=2020.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from pandas) (2024.1)
+Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from pandas) (2024.1)
+Requirement already satisfied: Jinja2&gt;=3.1.2 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from Flask&lt;3.1,&gt;=1.0.4-&gt;dash) (3.1.3)
+Requirement already satisfied: itsdangerous&gt;=2.1.2 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from Flask&lt;3.1,&gt;=1.0.4-&gt;dash) (2.1.2)
+Requirement already satisfied: click&gt;=8.1.3 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from Flask&lt;3.1,&gt;=1.0.4-&gt;dash) (8.1.7)
+Requirement already satisfied: blinker&gt;=1.6.2 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from Flask&lt;3.1,&gt;=1.0.4-&gt;dash) (1.7.0)
+Requirement already satisfied: tenacity&gt;=6.2.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from plotly&gt;=5.0.0-&gt;dash) (8.2.3)
+Requirement already satisfied: packaging in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from plotly&gt;=5.0.0-&gt;dash) (23.2)
+Requirement already satisfied: six&gt;=1.5 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from python-dateutil&gt;=2.8.2-&gt;pandas) (1.16.0)
+Requirement already satisfied: MarkupSafe&gt;=2.1.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from Werkzeug&lt;3.1-&gt;dash) (2.1.5)
+Requirement already satisfied: zipp&gt;=0.5 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from importlib-metadata-&gt;dash) (3.18.1)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from requests-&gt;dash) (3.3.2)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from requests-&gt;dash) (3.6)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from requests-&gt;dash) (2.2.1)
+Requirement already satisfied: certifi&gt;=2017.4.17 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from requests-&gt;dash) (2024.2.2)
+Requirement already satisfied: colorama in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from click&gt;=8.1.3-&gt;Flask&lt;3.1,&gt;=1.0.4-&gt;dash) (0.4.6)
+Requirement already satisfied: seaborn in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (0.13.2)
+Requirement already satisfied: numpy!=1.24.0,&gt;=1.20 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from seaborn) (1.26.4)
+Requirement already satisfied: pandas&gt;=1.2 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from seaborn) (2.2.1)
+Requirement already satisfied: matplotlib!=3.6.1,&gt;=3.4 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from seaborn) (3.8.3)
+Requirement already satisfied: contourpy&gt;=1.0.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.2.0)
+Requirement already satisfied: cycler&gt;=0.10 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (0.12.1)
+Requirement already satisfied: fonttools&gt;=4.22.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (4.50.0)
+Requirement already satisfied: kiwisolver&gt;=1.3.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.4.5)
+Requirement already satisfied: packaging&gt;=20.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (23.2)
+Requirement already satisfied: pillow&gt;=8 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (10.2.0)
+Requirement already satisfied: pyparsing&gt;=2.3.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (3.1.2)
+Requirement already satisfied: python-dateutil&gt;=2.7 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (2.9.0.post0)
+Requirement already satisfied: pytz&gt;=2020.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from pandas&gt;=1.2-&gt;seaborn) (2024.1)
+Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from pandas&gt;=1.2-&gt;seaborn) (2024.1)
+Requirement already satisfied: six&gt;=1.5 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.16.0)
+Requirement already satisfied: pandas in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (2.2.1)
+Requirement already satisfied: numpy&lt;2,&gt;=1.26.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from pandas) (1.26.4)
+Requirement already satisfied: python-dateutil&gt;=2.8.2 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz&gt;=2020.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from pandas) (2024.1)
+Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from pandas) (2024.1)
+Requirement already satisfied: six&gt;=1.5 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from python-dateutil&gt;=2.8.2-&gt;pandas) (1.16.0)
+Requirement already satisfied: scipy in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (1.12.0)
+Requirement already satisfied: numpy&lt;1.29.0,&gt;=1.22.4 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from scipy) (1.26.4)
+Requirement already satisfied: psycopg2-binary in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (2.9.9)
+Requirement already satisfied: config in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (0.5.1)
+Requirement already satisfied: PyMySQL in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (1.1.0)
+Requirement already satisfied: sqlalchemy in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (2.0.28)
+Requirement already satisfied: typing-extensions&gt;=4.6.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from sqlalchemy) (4.10.0)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from sqlalchemy) (3.0.3)
+Requirement already satisfied: numpy in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (1.26.4)
+Requirement already satisfied: matplotlib in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (3.8.3)
+Requirement already satisfied: contourpy&gt;=1.0.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (1.2.0)
+Requirement already satisfied: cycler&gt;=0.10 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (0.12.1)
+Requirement already satisfied: fonttools&gt;=4.22.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (4.50.0)
+Requirement already satisfied: kiwisolver&gt;=1.3.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (1.4.5)
+Requirement already satisfied: numpy&lt;2,&gt;=1.21 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (1.26.4)
+Requirement already satisfied: packaging&gt;=20.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (23.2)
+Requirement already satisfied: pillow&gt;=8 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (10.2.0)
+Requirement already satisfied: pyparsing&gt;=2.3.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (3.1.2)
+Requirement already satisfied: python-dateutil&gt;=2.7 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib) (2.9.0.post0)
+Requirement already satisfied: six&gt;=1.5 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib) (1.16.0)
+Requirement already satisfied: seaborn in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (0.13.2)
+Requirement already satisfied: numpy!=1.24.0,&gt;=1.20 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from seaborn) (1.26.4)
+Requirement already satisfied: pandas&gt;=1.2 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from seaborn) (2.2.1)
+Requirement already satisfied: matplotlib!=3.6.1,&gt;=3.4 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from seaborn) (3.8.3)
+Requirement already satisfied: contourpy&gt;=1.0.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.2.0)
+Requirement already satisfied: cycler&gt;=0.10 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (0.12.1)
+Requirement already satisfied: fonttools&gt;=4.22.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (4.50.0)
+Requirement already satisfied: kiwisolver&gt;=1.3.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.4.5)
+Requirement already satisfied: packaging&gt;=20.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (23.2)
+Requirement already satisfied: pillow&gt;=8 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (10.2.0)
+Requirement already satisfied: pyparsing&gt;=2.3.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (3.1.2)
+Requirement already satisfied: python-dateutil&gt;=2.7 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (2.9.0.post0)
+Requirement already satisfied: pytz&gt;=2020.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from pandas&gt;=1.2-&gt;seaborn) (2024.1)
+Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from pandas&gt;=1.2-&gt;seaborn) (2024.1)
+Requirement already satisfied: six&gt;=1.5 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.16.0)
+Requirement already satisfied: scipy in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (1.12.0)
+Requirement already satisfied: numpy&lt;1.29.0,&gt;=1.22.4 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 44\data\.venv\lib\site-packages (from scipy) (1.26.4)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>импортируем их</p>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score, classification_report</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.pipeline <span class="im">import</span> make_pipeline</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> r2_score</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn <span class="im">import</span> preprocessing</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> numpy <span class="im">import</span> mean</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> numpy.random <span class="im">import</span> randn</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> numpy.random <span class="im">import</span> rand</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> RepeatedStratifiedKFold</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> ValidationCurveDisplay</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.naive_bayes <span class="im">import</span> GaussianNB</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> LearningCurveDisplay, ShuffleSplit</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datetime <span class="im">import</span> date,timedelta</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy <span class="im">import</span> stats</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> norm, skew</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sqlalchemy <span class="im">import</span> create_engine</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> psycopg2</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> dash</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> dash_core_components <span class="im">as</span> dcc</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> dash <span class="im">import</span> Dash, html, dash_table, dcc, callback, Output, Input</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> plotly.graph_objs <span class="im">as</span> go </span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> plotly.express <span class="im">as</span> px</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> <span class="op">*</span></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor, GradientBoostingRegressor</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error</span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn <span class="im">import</span> linear_model</span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn <span class="im">import</span> metrics</span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> scale</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> MinMaxScaler</span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression</span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score</span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> psycopg2 </span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> json</span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> GridSearchCV, cross_val_score, learning_curve </span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>загружаем данные</p>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>conn <span class="op">=</span> psycopg2.<span class="ex">connect</span>(</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    dbname<span class="op">=</span><span class="st">&quot;Csv&quot;</span>,</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    user<span class="op">=</span><span class="st">&quot;postgres&quot;</span>,</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    password<span class="op">=</span><span class="st">&quot;12345&quot;</span>,</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    host<span class="op">=</span><span class="st">&quot;localhost&quot;</span>,</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    port<span class="op">=</span><span class="st">&quot;5432&quot;</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>cursor <span class="op">=</span> conn.cursor()</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>cursor.execute(<span class="st">&quot;SELECT * FROM csv.expenses&quot;</span>)</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> cursor.fetchall()</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>df_ex <span class="op">=</span> pd.DataFrame(results)</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>cursor <span class="op">=</span> conn.cursor()</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>cursor.execute(<span class="st">&quot;SELECT * FROM csv.order&quot;</span>)</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> cursor.fetchall()</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>df_or <span class="op">=</span> pd.DataFrame(results)</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>cursor <span class="op">=</span> conn.cursor()</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>cursor.execute(<span class="st">&quot;SELECT * FROM csv.visitation&quot;</span>)</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> cursor.fetchall()</span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>df_vi <span class="op">=</span> pd.DataFrame(results)</span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>cursor <span class="op">=</span> conn.cursor()</span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>cursor.execute(<span class="st">&quot;SELECT * FROM public.merged_data&quot;</span>)</span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> cursor.fetchall()</span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>merged_data <span class="op">=</span> pd.DataFrame(results)</span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>cursor <span class="op">=</span> conn.cursor()</span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>cursor.execute(<span class="st">&quot;SELECT * FROM public.segmented_rfm&quot;</span>)</span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> cursor.fetchall()</span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a>segmented_rfm <span class="op">=</span> pd.DataFrame(results)</span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a>conn.close()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df_ex.columns <span class="op">=</span> [<span class="st">&#39;dt&#39;</span>, <span class="st">&#39;Channel&#39;</span>, <span class="st">&#39;costs&#39;</span>]</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>df_or.columns <span class="op">=</span> [<span class="st">&#39;User_Id&#39;</span> , <span class="st">&#39;Event_Dt&#39;</span>,<span class="st">&#39;Revenue&#39;</span>]</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>df_vi.columns <span class="op">=</span> [<span class="st">&#39;User_Id&#39;</span> , <span class="st">&#39;Region&#39;</span>,<span class="st">&#39;Device&#39;</span>,<span class="st">&#39;Channel&#39;</span>,<span class="st">&#39;Session_Start&#39;</span>,<span class="st">&#39;Session_End&#39;</span>]</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>merged_data.columns <span class="op">=</span> [<span class="st">&#39;User_Id&#39;</span>,<span class="st">&#39;Session_Start&#39;</span>,<span class="st">&#39;Device&#39;</span>,<span class="st">&#39;Region&#39;</span>,<span class="st">&#39;Revenue&#39;</span>,<span class="st">&#39;Channel&#39;</span>,<span class="st">&#39;Event_Dt&#39;</span>,<span class="st">&#39;mean_cost&#39;</span>]</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>segmented_rfm.columns <span class="op">=</span> [<span class="st">&#39;User_Id&#39;</span>,<span class="st">&#39;recency&#39;</span>,<span class="st">&#39;frequency&#39;</span>,<span class="st">&#39;monetary_value&#39;</span>,<span class="st">&#39;r_quartile&#39;</span>,<span class="st">&#39;f_quartile&#39;</span>,<span class="st">&#39;m_quartile&#39;</span>,<span class="st">&#39;RFMScore&#39;</span>]</span></code></pre></div>
+</div>
+<section id="41-предсказание-целевой-переменной" class="cell markdown">
+<h1>4.1 Предсказание целевой переменной</h1>
+</section>
+<section id="модель-обуч" class="cell markdown">
+<h3>модель обуч</h3>
+</section>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>merged_data <span class="op">=</span> merged_data.dropna()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df_ex[<span class="st">&#39;costs&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>user_data <span class="op">=</span> pd.concat([merged_data, df], axis<span class="op">=</span><span class="dv">1</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>user_data <span class="op">=</span> user_data.dropna()</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>user_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="24">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>User_Id</th>
+      <th>Session_Start</th>
+      <th>Device</th>
+      <th>Region</th>
+      <th>Revenue</th>
+      <th>Channel</th>
+      <th>Event_Dt</th>
+      <th>mean_cost</th>
+      <th>costs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10006613101</td>
+      <td>2022-06-30 10:54:08</td>
+      <td>Android</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>FaceBoom</td>
+      <td>2022-06-30 10:54:29</td>
+      <td>180.253333</td>
+      <td>113.3</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>100256006722</td>
+      <td>2022-09-27 03:51:19</td>
+      <td>iPhone</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>TipTop</td>
+      <td>2022-09-27 03:51:19</td>
+      <td>267.687821</td>
+      <td>78.1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>100293023530</td>
+      <td>2022-07-13 08:46:50</td>
+      <td>Mac</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>TipTop</td>
+      <td>2022-07-14 11:13:04</td>
+      <td>267.687821</td>
+      <td>85.8</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>100311327873</td>
+      <td>2022-08-18 03:42:23</td>
+      <td>PC</td>
+      <td>Thailand</td>
+      <td>5.99</td>
+      <td>WahooNetBanner</td>
+      <td>2022-08-19 07:26:38</td>
+      <td>28.616667</td>
+      <td>136.4</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>100352169572</td>
+      <td>2022-08-04 04:37:43</td>
+      <td>iPhone</td>
+      <td>Russia</td>
+      <td>9.99</td>
+      <td>TipTop</td>
+      <td>2022-08-05 05:19:35</td>
+      <td>267.687821</td>
+      <td>122.1</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1770</th>
+      <td>279035335633</td>
+      <td>2022-05-17 01:19:40</td>
+      <td>iPhone</td>
+      <td>Turkey</td>
+      <td>4.99</td>
+      <td>WahooNetBanner</td>
+      <td>2022-05-22 19:56:06</td>
+      <td>28.616667</td>
+      <td>6.4</td>
+    </tr>
+    <tr>
+      <th>1771</th>
+      <td>279107321158</td>
+      <td>2022-08-06 07:46:02</td>
+      <td>Android</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>YRabbit</td>
+      <td>2022-08-06 07:47:08</td>
+      <td>5.245667</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <th>1773</th>
+      <td>279278626388</td>
+      <td>2022-09-28 18:06:21</td>
+      <td>Android</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>FaceBoom</td>
+      <td>2022-09-28 18:06:26</td>
+      <td>180.253333</td>
+      <td>8.8</td>
+    </tr>
+    <tr>
+      <th>1774</th>
+      <td>279462649567</td>
+      <td>2022-05-20 16:50:02</td>
+      <td>PC</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>MediaTornado</td>
+      <td>2022-05-22 16:04:05</td>
+      <td>5.302667</td>
+      <td>8.8</td>
+    </tr>
+    <tr>
+      <th>1775</th>
+      <td>279520205196</td>
+      <td>2022-05-05 21:46:40</td>
+      <td>iPhone</td>
+      <td>Russia</td>
+      <td>5.99</td>
+      <td>FaceBoom</td>
+      <td>2022-05-05 21:46:43</td>
+      <td>180.253333</td>
+      <td>12.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>1535 rows × 9 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>быстро обучем модель как было сделанно раньше</p>
+</div>
+<div class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Напишем функцию, которая принимает на вход DataFrame, кодирует числовыми значениями категориальные признаки</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="co"># и возвращает обновленный DataFrame и сами кодировщики.</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> number_encode_features(init_df):</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> init_df.copy() <span class="co"># копируем нашу исходную таблицу</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>    encoders <span class="op">=</span> {}</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> column <span class="kw">in</span> result.columns:</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> result.dtypes[column] <span class="op">==</span> <span class="bu">object</span>: <span class="co"># np.object -- строковый тип / если тип столбца - строка, то нужно его закодировать</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>            encoders[column] <span class="op">=</span> preprocessing.LabelEncoder() <span class="co"># для колонки column создаем кодировщик</span></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>            result[column] <span class="op">=</span> encoders[column].fit_transform(result[column]) <span class="co"># применяем кодировщик к столбцу и перезаписываем столбец</span></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> result, encoders</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>encoded_data, encoders <span class="op">=</span> number_encode_features(user_data) <span class="co"># Теперь encoded data содержит закодированные кат. признаки</span></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>encoded_data.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="25">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>User_Id</th>
+      <th>Session_Start</th>
+      <th>Device</th>
+      <th>Region</th>
+      <th>Revenue</th>
+      <th>Channel</th>
+      <th>Event_Dt</th>
+      <th>mean_cost</th>
+      <th>costs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>2022-06-30 10:54:08</td>
+      <td>0</td>
+      <td>1</td>
+      <td>4.99</td>
+      <td>1</td>
+      <td>2022-06-30 10:54:29</td>
+      <td>180.253333</td>
+      <td>113.3</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>2022-09-27 03:51:19</td>
+      <td>3</td>
+      <td>1</td>
+      <td>4.99</td>
+      <td>6</td>
+      <td>2022-09-27 03:51:19</td>
+      <td>267.687821</td>
+      <td>78.1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2</td>
+      <td>2022-07-13 08:46:50</td>
+      <td>1</td>
+      <td>1</td>
+      <td>4.99</td>
+      <td>6</td>
+      <td>2022-07-14 11:13:04</td>
+      <td>267.687821</td>
+      <td>85.8</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3</td>
+      <td>2022-08-18 03:42:23</td>
+      <td>2</td>
+      <td>2</td>
+      <td>5.99</td>
+      <td>7</td>
+      <td>2022-08-19 07:26:38</td>
+      <td>28.616667</td>
+      <td>136.4</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4</td>
+      <td>2022-08-04 04:37:43</td>
+      <td>3</td>
+      <td>1</td>
+      <td>9.99</td>
+      <td>6</td>
+      <td>2022-08-05 05:19:35</td>
+      <td>267.687821</td>
+      <td>122.1</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> np.array(encoded_data[encoded_data._get_numeric_data().columns].drop(<span class="st">&#39;costs&#39;</span>, axis<span class="op">=</span><span class="dv">1</span>)) <span class="co">#помещаем в перменную X наши обработанные и закодированные данные</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> np.array(encoded_data[<span class="st">&#39;costs&#39;</span>]) <span class="co">#таргет для прогноза стоимости привлечения пользователей</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="27">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="28">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>rf_model <span class="op">=</span> RandomForestRegressor(n_estimators<span class="op">=</span><span class="dv">100</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>rf_model.fit(X_train, y_train)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="28">
+<style>#sk-container-id-2 {
+  /* Definition of color scheme common for light and dark mode */
+  --sklearn-color-text: black;
+  --sklearn-color-line: gray;
+  /* Definition of color scheme for unfitted estimators */
+  --sklearn-color-unfitted-level-0: #fff5e6;
+  --sklearn-color-unfitted-level-1: #f6e4d2;
+  --sklearn-color-unfitted-level-2: #ffe0b3;
+  --sklearn-color-unfitted-level-3: chocolate;
+  /* Definition of color scheme for fitted estimators */
+  --sklearn-color-fitted-level-0: #f0f8ff;
+  --sklearn-color-fitted-level-1: #d4ebff;
+  --sklearn-color-fitted-level-2: #b3dbfd;
+  --sklearn-color-fitted-level-3: cornflowerblue;
+
+  /* Specific color for light theme */
+  --sklearn-color-text-on-default-background: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, black)));
+  --sklearn-color-background: var(--sg-background-color, var(--theme-background, var(--jp-layout-color0, white)));
+  --sklearn-color-border-box: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, black)));
+  --sklearn-color-icon: #696969;
+
+  @media (prefers-color-scheme: dark) {
+    /* Redefinition of color scheme for dark theme */
+    --sklearn-color-text-on-default-background: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, white)));
+    --sklearn-color-background: var(--sg-background-color, var(--theme-background, var(--jp-layout-color0, #111)));
+    --sklearn-color-border-box: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, white)));
+    --sklearn-color-icon: #878787;
+  }
+}
+
+#sk-container-id-2 {
+  color: var(--sklearn-color-text);
+}
+
+#sk-container-id-2 pre {
+  padding: 0;
+}
+
+#sk-container-id-2 input.sk-hidden--visually {
+  border: 0;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+#sk-container-id-2 div.sk-dashed-wrapped {
+  border: 1px dashed var(--sklearn-color-line);
+  margin: 0 0.4em 0.5em 0.4em;
+  box-sizing: border-box;
+  padding-bottom: 0.4em;
+  background-color: var(--sklearn-color-background);
+}
+
+#sk-container-id-2 div.sk-container {
+  /* jupyter's `normalize.less` sets `[hidden] { display: none; }`
+     but bootstrap.min.css set `[hidden] { display: none !important; }`
+     so we also need the `!important` here to be able to override the
+     default hidden behavior on the sphinx rendered scikit-learn.org.
+     See: https://github.com/scikit-learn/scikit-learn/issues/21755 */
+  display: inline-block !important;
+  position: relative;
+}
+
+#sk-container-id-2 div.sk-text-repr-fallback {
+  display: none;
+}
+
+div.sk-parallel-item,
+div.sk-serial,
+div.sk-item {
+  /* draw centered vertical line to link estimators */
+  background-image: linear-gradient(var(--sklearn-color-text-on-default-background), var(--sklearn-color-text-on-default-background));
+  background-size: 2px 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Parallel-specific style estimator block */
+
+#sk-container-id-2 div.sk-parallel-item::after {
+  content: "";
+  width: 100%;
+  border-bottom: 2px solid var(--sklearn-color-text-on-default-background);
+  flex-grow: 1;
+}
+
+#sk-container-id-2 div.sk-parallel {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  background-color: var(--sklearn-color-background);
+  position: relative;
+}
+
+#sk-container-id-2 div.sk-parallel-item {
+  display: flex;
+  flex-direction: column;
+}
+
+#sk-container-id-2 div.sk-parallel-item:first-child::after {
+  align-self: flex-end;
+  width: 50%;
+}
+
+#sk-container-id-2 div.sk-parallel-item:last-child::after {
+  align-self: flex-start;
+  width: 50%;
+}
+
+#sk-container-id-2 div.sk-parallel-item:only-child::after {
+  width: 0;
+}
+
+/* Serial-specific style estimator block */
+
+#sk-container-id-2 div.sk-serial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--sklearn-color-background);
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+
+/* Toggleable style: style used for estimator/Pipeline/ColumnTransformer box that is
+clickable and can be expanded/collapsed.
+- Pipeline and ColumnTransformer use this feature and define the default style
+- Estimators will overwrite some part of the style using the `sk-estimator` class
+*/
+
+/* Pipeline and ColumnTransformer style (default) */
+
+#sk-container-id-2 div.sk-toggleable {
+  /* Default theme specific background. It is overwritten whether we have a
+  specific estimator or a Pipeline/ColumnTransformer */
+  background-color: var(--sklearn-color-background);
+}
+
+/* Toggleable label */
+#sk-container-id-2 label.sk-toggleable__label {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0.5em;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#sk-container-id-2 label.sk-toggleable__label-arrow:before {
+  /* Arrow on the left of the label */
+  content: "▸";
+  float: left;
+  margin-right: 0.25em;
+  color: var(--sklearn-color-icon);
+}
+
+#sk-container-id-2 label.sk-toggleable__label-arrow:hover:before {
+  color: var(--sklearn-color-text);
+}
+
+/* Toggleable content - dropdown */
+
+#sk-container-id-2 div.sk-toggleable__content {
+  max-height: 0;
+  max-width: 0;
+  overflow: hidden;
+  text-align: left;
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-0);
+}
+
+#sk-container-id-2 div.sk-toggleable__content.fitted {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-0);
+}
+
+#sk-container-id-2 div.sk-toggleable__content pre {
+  margin: 0.2em;
+  border-radius: 0.25em;
+  color: var(--sklearn-color-text);
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-0);
+}
+
+#sk-container-id-2 div.sk-toggleable__content.fitted pre {
+  /* unfitted */
+  background-color: var(--sklearn-color-fitted-level-0);
+}
+
+#sk-container-id-2 input.sk-toggleable__control:checked~div.sk-toggleable__content {
+  /* Expand drop-down */
+  max-height: 200px;
+  max-width: 100%;
+  overflow: auto;
+}
+
+#sk-container-id-2 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {
+  content: "▾";
+}
+
+/* Pipeline/ColumnTransformer-specific style */
+
+#sk-container-id-2 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  color: var(--sklearn-color-text);
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+#sk-container-id-2 div.sk-label.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+/* Estimator-specific style */
+
+/* Colorize estimator box */
+#sk-container-id-2 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+#sk-container-id-2 div.sk-estimator.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+#sk-container-id-2 div.sk-label label.sk-toggleable__label,
+#sk-container-id-2 div.sk-label label {
+  /* The background is the default theme color */
+  color: var(--sklearn-color-text-on-default-background);
+}
+
+/* On hover, darken the color of the background */
+#sk-container-id-2 div.sk-label:hover label.sk-toggleable__label {
+  color: var(--sklearn-color-text);
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+/* Label box, darken color on hover, fitted */
+#sk-container-id-2 div.sk-label.fitted:hover label.sk-toggleable__label.fitted {
+  color: var(--sklearn-color-text);
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+/* Estimator label */
+
+#sk-container-id-2 div.sk-label label {
+  font-family: monospace;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 1.2em;
+}
+
+#sk-container-id-2 div.sk-label-container {
+  text-align: center;
+}
+
+/* Estimator-specific */
+#sk-container-id-2 div.sk-estimator {
+  font-family: monospace;
+  border: 1px dotted var(--sklearn-color-border-box);
+  border-radius: 0.25em;
+  box-sizing: border-box;
+  margin-bottom: 0.5em;
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-0);
+}
+
+#sk-container-id-2 div.sk-estimator.fitted {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-0);
+}
+
+/* on hover */
+#sk-container-id-2 div.sk-estimator:hover {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+#sk-container-id-2 div.sk-estimator.fitted:hover {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+/* Specification for estimator info (e.g. "i" and "?") */
+
+/* Common style for "i" and "?" */
+
+.sk-estimator-doc-link,
+a:link.sk-estimator-doc-link,
+a:visited.sk-estimator-doc-link {
+  float: right;
+  font-size: smaller;
+  line-height: 1em;
+  font-family: monospace;
+  background-color: var(--sklearn-color-background);
+  border-radius: 1em;
+  height: 1em;
+  width: 1em;
+  text-decoration: none !important;
+  margin-left: 1ex;
+  /* unfitted */
+  border: var(--sklearn-color-unfitted-level-1) 1pt solid;
+  color: var(--sklearn-color-unfitted-level-1);
+}
+
+.sk-estimator-doc-link.fitted,
+a:link.sk-estimator-doc-link.fitted,
+a:visited.sk-estimator-doc-link.fitted {
+  /* fitted */
+  border: var(--sklearn-color-fitted-level-1) 1pt solid;
+  color: var(--sklearn-color-fitted-level-1);
+}
+
+/* On hover */
+div.sk-estimator:hover .sk-estimator-doc-link:hover,
+.sk-estimator-doc-link:hover,
+div.sk-label-container:hover .sk-estimator-doc-link:hover,
+.sk-estimator-doc-link:hover {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-3);
+  color: var(--sklearn-color-background);
+  text-decoration: none;
+}
+
+div.sk-estimator.fitted:hover .sk-estimator-doc-link.fitted:hover,
+.sk-estimator-doc-link.fitted:hover,
+div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
+.sk-estimator-doc-link.fitted:hover {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-3);
+  color: var(--sklearn-color-background);
+  text-decoration: none;
+}
+
+/* Span, style for the box shown on hovering the info icon */
+.sk-estimator-doc-link span {
+  display: none;
+  z-index: 9999;
+  position: relative;
+  font-weight: normal;
+  right: .2ex;
+  padding: .5ex;
+  margin: .5ex;
+  width: min-content;
+  min-width: 20ex;
+  max-width: 50ex;
+  color: var(--sklearn-color-text);
+  box-shadow: 2pt 2pt 4pt #999;
+  /* unfitted */
+  background: var(--sklearn-color-unfitted-level-0);
+  border: .5pt solid var(--sklearn-color-unfitted-level-3);
+}
+
+.sk-estimator-doc-link.fitted span {
+  /* fitted */
+  background: var(--sklearn-color-fitted-level-0);
+  border: var(--sklearn-color-fitted-level-3);
+}
+
+.sk-estimator-doc-link:hover span {
+  display: block;
+}
+
+/* "?"-specific style due to the `<a>` HTML tag */
+
+#sk-container-id-2 a.estimator_doc_link {
+  float: right;
+  font-size: 1rem;
+  line-height: 1em;
+  font-family: monospace;
+  background-color: var(--sklearn-color-background);
+  border-radius: 1rem;
+  height: 1rem;
+  width: 1rem;
+  text-decoration: none;
+  /* unfitted */
+  color: var(--sklearn-color-unfitted-level-1);
+  border: var(--sklearn-color-unfitted-level-1) 1pt solid;
+}
+
+#sk-container-id-2 a.estimator_doc_link.fitted {
+  /* fitted */
+  border: var(--sklearn-color-fitted-level-1) 1pt solid;
+  color: var(--sklearn-color-fitted-level-1);
+}
+
+/* On hover */
+#sk-container-id-2 a.estimator_doc_link:hover {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-3);
+  color: var(--sklearn-color-background);
+  text-decoration: none;
+}
+
+#sk-container-id-2 a.estimator_doc_link.fitted:hover {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-3);
+}
+</style><div id="sk-container-id-2" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>RandomForestRegressor(random_state=42)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator fitted sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-2" type="checkbox" checked><label for="sk-estimator-id-2" class="sk-toggleable__label fitted sk-toggleable__label-arrow fitted">&nbsp;&nbsp;RandomForestRegressor<a class="sk-estimator-doc-link fitted" rel="noreferrer" target="_blank" href="https://scikit-learn.org/1.4/modules/generated/sklearn.ensemble.RandomForestRegressor.html">?<span>Documentation for RandomForestRegressor</span></a><span class="sk-estimator-doc-link fitted">i<span>Fitted</span></span></label><div class="sk-toggleable__content fitted"><pre>RandomForestRegressor(random_state=42)</pre></div> </div></div></div></div>
+</div>
+</div>
+<div class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> rf_model.predict(X_test)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="30">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># метрика r2</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>r2_score(rf_model.predict(X_test), y_test)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="30">
+<pre><code>0.9677153571154117</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="31">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Вычисление метрик точности: MAE, MSE, RMSE </span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>mae <span class="op">=</span> mean_absolute_error(y_test, y_pred) </span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>mse <span class="op">=</span> mean_squared_error(y_test, y_pred) </span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>rmse <span class="op">=</span> np.sqrt(mse) </span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a><span class="co"># ]Вывод результатов </span></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Средняя абсолютная ошибка (MAE): </span><span class="sc">{</span>mae<span class="sc">:.2f}</span><span class="ss">&#39;</span>) </span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Средняя квадратичная ошибка (MSE): </span><span class="sc">{</span>mse<span class="sc">:.2f}</span><span class="ss">&#39;</span>) </span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Корень из среднеквадратичной ошибки (RMSE): </span><span class="sc">{</span>rmse<span class="sc">:.2f}</span><span class="ss">&#39;</span>) </span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a><span class="co">#Точность в процентах </span></span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>accuracy <span class="op">=</span> rf_model.score(X_test, y_test) </span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Точность модели (R^2): </span><span class="sc">{</span>accuracy<span class="sc">:.2%}</span><span class="ss">&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Средняя абсолютная ошибка (MAE): 7.01
+Средняя квадратичная ошибка (MSE): 255.54
+Корень из среднеквадратичной ошибки (RMSE): 15.99
+Точность модели (R^2): 97.08%
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="32">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Выполнение кросс-валидации с 30 фолдами </span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>scores <span class="op">=</span> cross_val_score(rf_model, X, y, cv<span class="op">=</span><span class="dv">30</span>, scoring<span class="op">=</span><span class="st">&#39;neg_mean_squared_error&#39;</span>) </span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Переводим оценки в положительные значения и находим корень из среднего квадратичного </span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>rmse_scores <span class="op">=</span> np.sqrt(<span class="op">-</span>scores) </span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Вывод результатов кросс-валидации </span></span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;RMSE по каждому фолду:&quot;</span>, rmse_scores) </span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Средний RMSE:&quot;</span>, rmse_scores.mean())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>RMSE по каждому фолду: [114.45265938  55.54429516 132.73279707   2.61522658   2.08149666
+   2.35793077   9.85872802   3.09896116  16.70266267 115.75270566
+  68.46176376 164.75615424   3.37351459   1.03632767  20.26618263
+  10.63420077   5.40317854  13.29732428   3.70789368   2.82448933
+   5.50343132   4.10861076   3.91692715   4.87858142   7.63112212
+   5.39083814   8.49219239  10.737186     3.03530391   3.62493257]
+Средний RMSE: 26.875920613853523
+</code></pre>
+</div>
+</div>
+<section id="предсказание" class="cell markdown">
+<h2>предсказание</h2>
+</section>
+<div class="cell markdown">
+<p>Данный код способен выдавать результаты r2 и сохранять все прогнозы в
+файл csv</p>
+</div>
+<div class="cell code" data-execution_count="35">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># X_test - контрольная выборка атрибутов</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="co"># y_test - контрольная выборка целевой переменной</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Прогнозирование для контрольной выборки</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> rf_model.predict(X_test)</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Оценка качества модели с помощью коэффициента детерминации (R2)</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>r2 <span class="op">=</span> r2_score(y_test, y_pred)</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Коэффициент детерминации (R2) на контрольной выборке: </span><span class="sc">{</span>r2<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Запись ответов, содержащих соответствующие атрибуты и предсказания целевой переменной, в файл</span></span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> pd.DataFrame(<span class="bu">list</span>(<span class="bu">zip</span>(X_test, y_test,y_pred)), columns<span class="op">=</span>[<span class="st">&#39;атрибуты&#39;</span>, <span class="st">&#39;реальные_значения&#39;</span>,<span class="st">&#39;предсказанные_значения&#39;</span>])</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>results.to_csv(<span class="st">&#39;результаты_прогнозирования.csv&#39;</span>, index<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Коэффициент детерминации (R2) на контрольной выборке: 0.9708182051966819
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>качество у модели не очень результат ~0.8</p>
+</div>
+<section id="422-разработка-прикладного-решения" class="cell markdown">
+<h1>4.22 Разработка прикладного решения</h1>
+</section>
+<div class="cell markdown">
+<p>Данный бот реагирует на комманды получить_модель и справка</p>
+</div>
+<div class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>merged_data <span class="op">=</span> merged_data.dropna()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="39">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df_ex[<span class="st">&#39;costs&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="40">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>user_data <span class="op">=</span> pd.concat([merged_data, df], axis<span class="op">=</span><span class="dv">1</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="41">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>user_data <span class="op">=</span> user_data.dropna()</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>user_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="41">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>User_Id</th>
+      <th>Session_Start</th>
+      <th>Device</th>
+      <th>Region</th>
+      <th>Revenue</th>
+      <th>Channel</th>
+      <th>Event_Dt</th>
+      <th>mean_cost</th>
+      <th>costs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10006613101</td>
+      <td>2022-06-30 10:54:08</td>
+      <td>Android</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>FaceBoom</td>
+      <td>2022-06-30 10:54:29</td>
+      <td>180.253333</td>
+      <td>113.3</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>100256006722</td>
+      <td>2022-09-27 03:51:19</td>
+      <td>iPhone</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>TipTop</td>
+      <td>2022-09-27 03:51:19</td>
+      <td>267.687821</td>
+      <td>78.1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>100293023530</td>
+      <td>2022-07-13 08:46:50</td>
+      <td>Mac</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>TipTop</td>
+      <td>2022-07-14 11:13:04</td>
+      <td>267.687821</td>
+      <td>85.8</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>100311327873</td>
+      <td>2022-08-18 03:42:23</td>
+      <td>PC</td>
+      <td>Thailand</td>
+      <td>5.99</td>
+      <td>WahooNetBanner</td>
+      <td>2022-08-19 07:26:38</td>
+      <td>28.616667</td>
+      <td>136.4</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>100352169572</td>
+      <td>2022-08-04 04:37:43</td>
+      <td>iPhone</td>
+      <td>Russia</td>
+      <td>9.99</td>
+      <td>TipTop</td>
+      <td>2022-08-05 05:19:35</td>
+      <td>267.687821</td>
+      <td>122.1</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1770</th>
+      <td>279035335633</td>
+      <td>2022-05-17 01:19:40</td>
+      <td>iPhone</td>
+      <td>Turkey</td>
+      <td>4.99</td>
+      <td>WahooNetBanner</td>
+      <td>2022-05-22 19:56:06</td>
+      <td>28.616667</td>
+      <td>6.4</td>
+    </tr>
+    <tr>
+      <th>1771</th>
+      <td>279107321158</td>
+      <td>2022-08-06 07:46:02</td>
+      <td>Android</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>YRabbit</td>
+      <td>2022-08-06 07:47:08</td>
+      <td>5.245667</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <th>1773</th>
+      <td>279278626388</td>
+      <td>2022-09-28 18:06:21</td>
+      <td>Android</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>FaceBoom</td>
+      <td>2022-09-28 18:06:26</td>
+      <td>180.253333</td>
+      <td>8.8</td>
+    </tr>
+    <tr>
+      <th>1774</th>
+      <td>279462649567</td>
+      <td>2022-05-20 16:50:02</td>
+      <td>PC</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>MediaTornado</td>
+      <td>2022-05-22 16:04:05</td>
+      <td>5.302667</td>
+      <td>8.8</td>
+    </tr>
+    <tr>
+      <th>1775</th>
+      <td>279520205196</td>
+      <td>2022-05-05 21:46:40</td>
+      <td>iPhone</td>
+      <td>Russia</td>
+      <td>5.99</td>
+      <td>FaceBoom</td>
+      <td>2022-05-05 21:46:43</td>
+      <td>180.253333</td>
+      <td>12.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>1535 rows × 9 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="45">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Напишем функцию, которая принимает на вход DataFrame, кодирует числовыми значениями категориальные признаки</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="co"># и возвращает обновленный DataFrame и сами кодировщики.</span></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> number_encode_features(init_df):</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> init_df.copy() <span class="co"># копируем нашу исходную таблицу</span></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>    encoders <span class="op">=</span> {}</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> column <span class="kw">in</span> result.columns:</span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> result.dtypes[column] <span class="op">==</span> <span class="bu">object</span>: <span class="co"># np.object -- строковый тип / если тип столбца - строка, то нужно его закодировать</span></span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>            encoders[column] <span class="op">=</span> preprocessing.LabelEncoder() <span class="co"># для колонки column создаем кодировщик</span></span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>            result[column] <span class="op">=</span> encoders[column].fit_transform(result[column]) <span class="co"># применяем кодировщик к столбцу и перезаписываем столбец</span></span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> result, encoders</span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a>encoded_data, encoders <span class="op">=</span> number_encode_features(user_data) <span class="co"># Теперь encoded data содержит закодированные кат. признаки</span></span>
+<span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a>encoded_data.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="45">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>User_Id</th>
+      <th>Session_Start</th>
+      <th>Device</th>
+      <th>Region</th>
+      <th>Revenue</th>
+      <th>Channel</th>
+      <th>Event_Dt</th>
+      <th>mean_cost</th>
+      <th>costs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>2022-06-30 10:54:08</td>
+      <td>0</td>
+      <td>1</td>
+      <td>4.99</td>
+      <td>1</td>
+      <td>2022-06-30 10:54:29</td>
+      <td>180.253333</td>
+      <td>113.3</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>2022-09-27 03:51:19</td>
+      <td>3</td>
+      <td>1</td>
+      <td>4.99</td>
+      <td>6</td>
+      <td>2022-09-27 03:51:19</td>
+      <td>267.687821</td>
+      <td>78.1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2</td>
+      <td>2022-07-13 08:46:50</td>
+      <td>1</td>
+      <td>1</td>
+      <td>4.99</td>
+      <td>6</td>
+      <td>2022-07-14 11:13:04</td>
+      <td>267.687821</td>
+      <td>85.8</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3</td>
+      <td>2022-08-18 03:42:23</td>
+      <td>2</td>
+      <td>2</td>
+      <td>5.99</td>
+      <td>7</td>
+      <td>2022-08-19 07:26:38</td>
+      <td>28.616667</td>
+      <td>136.4</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4</td>
+      <td>2022-08-04 04:37:43</td>
+      <td>3</td>
+      <td>1</td>
+      <td>9.99</td>
+      <td>6</td>
+      <td>2022-08-05 05:19:35</td>
+      <td>267.687821</td>
+      <td>122.1</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="50">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>encoded_data <span class="op">=</span> encoded_data.drop([<span class="st">&#39;Session_Start&#39;</span>, <span class="st">&#39;Event_Dt&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="56">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tkinter <span class="im">as</span> tk</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tkinter <span class="im">import</span> messagebox</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Загрузка данных</span></span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> encoded_data</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Определение признаков (X) и целевой переменной (y)</span></span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> data.drop(columns<span class="op">=</span>[<span class="st">&#39;costs&#39;</span>])  <span class="co"># Признаки</span></span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> data[<span class="st">&#39;costs&#39;</span>]  <span class="co"># Целевая переменная</span></span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-14"><a href="#cb31-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Разделение данных на обучающий и тестовый наборы (здесь используется только обучающий набор)</span></span>
+<span id="cb31-15"><a href="#cb31-15" aria-hidden="true" tabindex="-1"></a>X_train, _, y_train, _ <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb31-16"><a href="#cb31-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-17"><a href="#cb31-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Обучение модели</span></span>
+<span id="cb31-18"><a href="#cb31-18" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> RandomForestRegressor()</span>
+<span id="cb31-19"><a href="#cb31-19" aria-hidden="true" tabindex="-1"></a>model.fit(X_train, y_train)</span>
+<span id="cb31-20"><a href="#cb31-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-21"><a href="#cb31-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Функция для предсказания</span></span>
+<span id="cb31-22"><a href="#cb31-22" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> predict_costs():</span>
+<span id="cb31-23"><a href="#cb31-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb31-24"><a href="#cb31-24" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Получение введенных пользователем данных</span></span>
+<span id="cb31-25"><a href="#cb31-25" aria-hidden="true" tabindex="-1"></a>        feature1 <span class="op">=</span> <span class="bu">float</span>(entry1.get())</span>
+<span id="cb31-26"><a href="#cb31-26" aria-hidden="true" tabindex="-1"></a>        feature2 <span class="op">=</span> <span class="bu">float</span>(entry2.get())</span>
+<span id="cb31-27"><a href="#cb31-27" aria-hidden="true" tabindex="-1"></a>        feature3 <span class="op">=</span> <span class="bu">float</span>(entry1.get())</span>
+<span id="cb31-28"><a href="#cb31-28" aria-hidden="true" tabindex="-1"></a>        feature4 <span class="op">=</span> <span class="bu">float</span>(entry2.get())</span>
+<span id="cb31-29"><a href="#cb31-29" aria-hidden="true" tabindex="-1"></a>        feature5 <span class="op">=</span> <span class="bu">float</span>(entry1.get())</span>
+<span id="cb31-30"><a href="#cb31-30" aria-hidden="true" tabindex="-1"></a>        feature6 <span class="op">=</span> <span class="bu">float</span>(entry2.get())</span>
+<span id="cb31-31"><a href="#cb31-31" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Добавьте другие признаки, если они есть</span></span>
+<span id="cb31-32"><a href="#cb31-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-33"><a href="#cb31-33" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Предсказание</span></span>
+<span id="cb31-34"><a href="#cb31-34" aria-hidden="true" tabindex="-1"></a>        predicted_cost <span class="op">=</span> model.predict([[feature1, feature2, feature3, feature4, feature5, feature6]])  <span class="co"># Замените данные на введенные значения</span></span>
+<span id="cb31-35"><a href="#cb31-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-36"><a href="#cb31-36" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Вывод результата предсказания</span></span>
+<span id="cb31-37"><a href="#cb31-37" aria-hidden="true" tabindex="-1"></a>        messagebox.showinfo(<span class="st">&quot;Prediction&quot;</span>, <span class="ss">f&quot;Предполагаемая стоимость: </span><span class="sc">{</span>predicted_cost[<span class="dv">0</span>]<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb31-38"><a href="#cb31-38" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
+<span id="cb31-39"><a href="#cb31-39" aria-hidden="true" tabindex="-1"></a>        messagebox.showerror(<span class="st">&quot;Ошибка&quot;</span>, <span class="ss">f&quot;Произошла ошибка: </span><span class="sc">{</span>e<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb31-40"><a href="#cb31-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-41"><a href="#cb31-41" aria-hidden="true" tabindex="-1"></a><span class="co"># Создание графического интерфейса</span></span>
+<span id="cb31-42"><a href="#cb31-42" aria-hidden="true" tabindex="-1"></a>root <span class="op">=</span> tk.Tk()</span>
+<span id="cb31-43"><a href="#cb31-43" aria-hidden="true" tabindex="-1"></a>root.title(<span class="st">&quot;Предсказание стоимости&quot;</span>)</span>
+<span id="cb31-44"><a href="#cb31-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-45"><a href="#cb31-45" aria-hidden="true" tabindex="-1"></a><span class="co"># Создание и размещение виджетов</span></span>
+<span id="cb31-46"><a href="#cb31-46" aria-hidden="true" tabindex="-1"></a>label1 <span class="op">=</span> tk.Label(root, text<span class="op">=</span><span class="st">&quot;Признак 1:&quot;</span>)</span>
+<span id="cb31-47"><a href="#cb31-47" aria-hidden="true" tabindex="-1"></a>label1.pack()</span>
+<span id="cb31-48"><a href="#cb31-48" aria-hidden="true" tabindex="-1"></a>entry1 <span class="op">=</span> tk.Entry(root)</span>
+<span id="cb31-49"><a href="#cb31-49" aria-hidden="true" tabindex="-1"></a>entry1.pack()</span>
+<span id="cb31-50"><a href="#cb31-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-51"><a href="#cb31-51" aria-hidden="true" tabindex="-1"></a>label2 <span class="op">=</span> tk.Label(root, text<span class="op">=</span><span class="st">&quot;Признак 2:&quot;</span>)</span>
+<span id="cb31-52"><a href="#cb31-52" aria-hidden="true" tabindex="-1"></a>label2.pack()</span>
+<span id="cb31-53"><a href="#cb31-53" aria-hidden="true" tabindex="-1"></a>entry2 <span class="op">=</span> tk.Entry(root)</span>
+<span id="cb31-54"><a href="#cb31-54" aria-hidden="true" tabindex="-1"></a>entry2.pack()</span>
+<span id="cb31-55"><a href="#cb31-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-56"><a href="#cb31-56" aria-hidden="true" tabindex="-1"></a>label3 <span class="op">=</span> tk.Label(root, text<span class="op">=</span><span class="st">&quot;Признак 3:&quot;</span>)</span>
+<span id="cb31-57"><a href="#cb31-57" aria-hidden="true" tabindex="-1"></a>label3.pack()</span>
+<span id="cb31-58"><a href="#cb31-58" aria-hidden="true" tabindex="-1"></a>entry3 <span class="op">=</span> tk.Entry(root)</span>
+<span id="cb31-59"><a href="#cb31-59" aria-hidden="true" tabindex="-1"></a>entry3.pack()</span>
+<span id="cb31-60"><a href="#cb31-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-61"><a href="#cb31-61" aria-hidden="true" tabindex="-1"></a>label4 <span class="op">=</span> tk.Label(root, text<span class="op">=</span><span class="st">&quot;Признак 4:&quot;</span>)</span>
+<span id="cb31-62"><a href="#cb31-62" aria-hidden="true" tabindex="-1"></a>label4.pack()</span>
+<span id="cb31-63"><a href="#cb31-63" aria-hidden="true" tabindex="-1"></a>entry4 <span class="op">=</span> tk.Entry(root)</span>
+<span id="cb31-64"><a href="#cb31-64" aria-hidden="true" tabindex="-1"></a>entry4.pack()</span>
+<span id="cb31-65"><a href="#cb31-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-66"><a href="#cb31-66" aria-hidden="true" tabindex="-1"></a>label5 <span class="op">=</span> tk.Label(root, text<span class="op">=</span><span class="st">&quot;Признак 5:&quot;</span>)</span>
+<span id="cb31-67"><a href="#cb31-67" aria-hidden="true" tabindex="-1"></a>label5.pack()</span>
+<span id="cb31-68"><a href="#cb31-68" aria-hidden="true" tabindex="-1"></a>entry5 <span class="op">=</span> tk.Entry(root)</span>
+<span id="cb31-69"><a href="#cb31-69" aria-hidden="true" tabindex="-1"></a>entry5.pack()</span>
+<span id="cb31-70"><a href="#cb31-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-71"><a href="#cb31-71" aria-hidden="true" tabindex="-1"></a>label6 <span class="op">=</span> tk.Label(root, text<span class="op">=</span><span class="st">&quot;Признак 6:&quot;</span>)</span>
+<span id="cb31-72"><a href="#cb31-72" aria-hidden="true" tabindex="-1"></a>label6.pack()</span>
+<span id="cb31-73"><a href="#cb31-73" aria-hidden="true" tabindex="-1"></a>entry6 <span class="op">=</span> tk.Entry(root)</span>
+<span id="cb31-74"><a href="#cb31-74" aria-hidden="true" tabindex="-1"></a>entry6.pack()</span>
+<span id="cb31-75"><a href="#cb31-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-76"><a href="#cb31-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-77"><a href="#cb31-77" aria-hidden="true" tabindex="-1"></a><span class="co"># Добавьте поля ввода для других признаков, если необходимо</span></span>
+<span id="cb31-78"><a href="#cb31-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-79"><a href="#cb31-79" aria-hidden="true" tabindex="-1"></a>predict_button <span class="op">=</span> tk.Button(root, text<span class="op">=</span><span class="st">&quot;Предсказать&quot;</span>, command<span class="op">=</span>predict_costs)</span>
+<span id="cb31-80"><a href="#cb31-80" aria-hidden="true" tabindex="-1"></a>predict_button.pack()</span>
+<span id="cb31-81"><a href="#cb31-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-82"><a href="#cb31-82" aria-hidden="true" tabindex="-1"></a>root.mainloop()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\base.py:493: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+</code></pre>
+</div>
+</div>
+<section id="4222-разработка-прикладного-решения" class="cell markdown">
+<h1>4.222 Разработка прикладного решения</h1>
+</section>
+<div class="cell markdown">
+<p>Запустить python app.py и потом streamlit run app1.py</p>
+</div>
+<section id="42-разработка-прикладного-решения" class="cell markdown">
+<h1>4.2 Разработка прикладного решения</h1>
+</section>
+<div class="cell code" data-execution_count="37">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co">#import tkinter as tk</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="co">#from tkinter import messagebox</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="co">#import joblib</span></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Загрузка обученной модели</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a><span class="co">#model = joblib.load(&#39;best_model.pkl&#39;)</span></span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Функция для предсказания погоды</span></span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a><span class="co">#def predict_weather():</span></span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Ваш код для получения данных о погоде</span></span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a>    <span class="co">#input_data = entry.get()</span></span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Предсказание погоды с использованием обученной модели</span></span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a>    <span class="co">#prediction = model.predict([input_data])[0]</span></span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb33-16"><a href="#cb33-16" aria-hidden="true" tabindex="-1"></a>    <span class="co">#messagebox.showinfo(&quot;Prediction&quot;, f&quot;Prediction: {prediction}&quot;)</span></span>
+<span id="cb33-17"><a href="#cb33-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-18"><a href="#cb33-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Создание графического интерфейса</span></span>
+<span id="cb33-19"><a href="#cb33-19" aria-hidden="true" tabindex="-1"></a><span class="co">#root = tk.Tk()</span></span>
+<span id="cb33-20"><a href="#cb33-20" aria-hidden="true" tabindex="-1"></a><span class="co">#root.title(&quot;Weather Prediction App&quot;)</span></span>
+<span id="cb33-21"><a href="#cb33-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-22"><a href="#cb33-22" aria-hidden="true" tabindex="-1"></a><span class="co">#label = tk.Label(root, text=&quot;Enter weather data:&quot;)</span></span>
+<span id="cb33-23"><a href="#cb33-23" aria-hidden="true" tabindex="-1"></a><span class="co">#label.pack()</span></span>
+<span id="cb33-24"><a href="#cb33-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-25"><a href="#cb33-25" aria-hidden="true" tabindex="-1"></a><span class="co">#entry = tk.Entry(root)</span></span>
+<span id="cb33-26"><a href="#cb33-26" aria-hidden="true" tabindex="-1"></a><span class="co">#entry.pack()</span></span>
+<span id="cb33-27"><a href="#cb33-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-28"><a href="#cb33-28" aria-hidden="true" tabindex="-1"></a><span class="co">#button = tk.Button(root, text=&quot;Predict&quot;, command=predict_weather)</span></span>
+<span id="cb33-29"><a href="#cb33-29" aria-hidden="true" tabindex="-1"></a><span class="co">#button.pack()</span></span>
+<span id="cb33-30"><a href="#cb33-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-31"><a href="#cb33-31" aria-hidden="true" tabindex="-1"></a><span class="co">#root.mainloop()</span></span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>Exception in Tkinter callback
+Traceback (most recent call last):
+  File &quot;C:\Users\tooer\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py&quot;, line 1962, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File &quot;C:\Users\tooer\AppData\Local\Temp\ipykernel_14428\1498650120.py&quot;, line 14, in predict_weather
+    prediction = model.predict([input_data])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 1064, in predict
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 641, in _validate_X_predict
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\base.py&quot;, line 633, in _validate_data
+    out = check_array(X, input_name=&quot;X&quot;, **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\utils\validation.py&quot;, line 1035, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[1.].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File &quot;C:\Users\tooer\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py&quot;, line 1962, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File &quot;C:\Users\tooer\AppData\Local\Temp\ipykernel_14428\1498650120.py&quot;, line 14, in predict_weather
+    prediction = model.predict([input_data])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 1064, in predict
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 641, in _validate_X_predict
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\base.py&quot;, line 633, in _validate_data
+    out = check_array(X, input_name=&quot;X&quot;, **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\utils\validation.py&quot;, line 1035, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[13.].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File &quot;C:\Users\tooer\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py&quot;, line 1962, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File &quot;C:\Users\tooer\AppData\Local\Temp\ipykernel_14428\1498650120.py&quot;, line 14, in predict_weather
+    prediction = model.predict([input_data])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 1064, in predict
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 641, in _validate_X_predict
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\base.py&quot;, line 633, in _validate_data
+    out = check_array(X, input_name=&quot;X&quot;, **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\utils\validation.py&quot;, line 997, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\utils\_array_api.py&quot;, line 521, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: &#39;12,2&#39;
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File &quot;C:\Users\tooer\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py&quot;, line 1962, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File &quot;C:\Users\tooer\AppData\Local\Temp\ipykernel_14428\1498650120.py&quot;, line 14, in predict_weather
+    prediction = model.predict([input_data])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 1064, in predict
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 641, in _validate_X_predict
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\base.py&quot;, line 633, in _validate_data
+    out = check_array(X, input_name=&quot;X&quot;, **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\utils\validation.py&quot;, line 997, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\utils\_array_api.py&quot;, line 521, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: &#39;12,2&#39;
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File &quot;C:\Users\tooer\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py&quot;, line 1962, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File &quot;C:\Users\tooer\AppData\Local\Temp\ipykernel_14428\1498650120.py&quot;, line 14, in predict_weather
+    prediction = model.predict([input_data])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 1064, in predict
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 641, in _validate_X_predict
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\base.py&quot;, line 633, in _validate_data
+    out = check_array(X, input_name=&quot;X&quot;, **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\utils\validation.py&quot;, line 1035, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[122.].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File &quot;C:\Users\tooer\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py&quot;, line 1962, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File &quot;C:\Users\tooer\AppData\Local\Temp\ipykernel_14428\1498650120.py&quot;, line 14, in predict_weather
+    prediction = model.predict([input_data])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 1064, in predict
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 641, in _validate_X_predict
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\base.py&quot;, line 633, in _validate_data
+    out = check_array(X, input_name=&quot;X&quot;, **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\utils\validation.py&quot;, line 1035, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[0.43].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File &quot;C:\Users\tooer\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py&quot;, line 1962, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File &quot;C:\Users\tooer\AppData\Local\Temp\ipykernel_14428\1498650120.py&quot;, line 14, in predict_weather
+    prediction = model.predict([input_data])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 1064, in predict
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 641, in _validate_X_predict
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\base.py&quot;, line 633, in _validate_data
+    out = check_array(X, input_name=&quot;X&quot;, **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\utils\validation.py&quot;, line 1035, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[0.43].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File &quot;C:\Users\tooer\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py&quot;, line 1962, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File &quot;C:\Users\tooer\AppData\Local\Temp\ipykernel_14428\1498650120.py&quot;, line 14, in predict_weather
+    prediction = model.predict([input_data])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 1064, in predict
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 641, in _validate_X_predict
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\base.py&quot;, line 633, in _validate_data
+    out = check_array(X, input_name=&quot;X&quot;, **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\utils\validation.py&quot;, line 1035, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[0.43].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File &quot;C:\Users\tooer\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py&quot;, line 1962, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File &quot;C:\Users\tooer\AppData\Local\Temp\ipykernel_14428\1498650120.py&quot;, line 14, in predict_weather
+    prediction = model.predict([input_data])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 1064, in predict
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 641, in _validate_X_predict
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\base.py&quot;, line 633, in _validate_data
+    out = check_array(X, input_name=&quot;X&quot;, **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\utils\validation.py&quot;, line 1035, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[0.43].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File &quot;C:\Users\tooer\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py&quot;, line 1962, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File &quot;C:\Users\tooer\AppData\Local\Temp\ipykernel_14428\1498650120.py&quot;, line 14, in predict_weather
+    prediction = model.predict([input_data])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 1064, in predict
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 641, in _validate_X_predict
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\base.py&quot;, line 633, in _validate_data
+    out = check_array(X, input_name=&quot;X&quot;, **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\utils\validation.py&quot;, line 1035, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[0.43].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File &quot;C:\Users\tooer\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py&quot;, line 1962, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File &quot;C:\Users\tooer\AppData\Local\Temp\ipykernel_14428\1498650120.py&quot;, line 14, in predict_weather
+    prediction = model.predict([input_data])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 1064, in predict
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 641, in _validate_X_predict
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\base.py&quot;, line 633, in _validate_data
+    out = check_array(X, input_name=&quot;X&quot;, **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\utils\validation.py&quot;, line 1035, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[0.43].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File &quot;C:\Users\tooer\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py&quot;, line 1962, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File &quot;C:\Users\tooer\AppData\Local\Temp\ipykernel_14428\1498650120.py&quot;, line 14, in predict_weather
+    prediction = model.predict([input_data])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 1064, in predict
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\ensemble\_forest.py&quot;, line 641, in _validate_X_predict
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\base.py&quot;, line 633, in _validate_data
+    out = check_array(X, input_name=&quot;X&quot;, **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\tooer\OneDrive\Рабочий стол\Marketing\Сессия 44\data\.venv\Lib\site-packages\sklearn\utils\validation.py&quot;, line 1035, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[0.43].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> results</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Пример команд и их действий</span></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>commands <span class="op">=</span> {</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;получить_модель&quot;</span>: <span class="va">None</span>,</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;справка&quot;</span>: <span class="va">None</span>,</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> execute_command(command, params):</span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> command <span class="op">==</span> <span class="st">&quot;получить_модель&quot;</span>:</span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a>        description <span class="op">=</span> params[<span class="st">&quot;Модель&quot;</span>]</span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a>        <span class="cf">try</span>:</span>
+<span id="cb35-14"><a href="#cb35-14" aria-hidden="true" tabindex="-1"></a>            recipient <span class="op">=</span> description</span>
+<span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="ss">f&quot;Модель найдена: </span><span class="sc">{</span>recipient<span class="sc">}</span><span class="ss">&quot;</span></span>
+<span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">except</span> <span class="pp">IndexError</span>:</span>
+<span id="cb35-17"><a href="#cb35-17" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="st">&quot;модель не найден&quot;</span></span>
+<span id="cb35-18"><a href="#cb35-18" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb35-19"><a href="#cb35-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> command <span class="op">==</span> <span class="st">&quot;справка&quot;</span>:</span>
+<span id="cb35-20"><a href="#cb35-20" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">&quot;Справка по командам: получить_модель, справка&quot;</span></span>
+<span id="cb35-21"><a href="#cb35-21" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb35-22"><a href="#cb35-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb35-23"><a href="#cb35-23" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">&quot;Неизвестная команда&quot;</span></span>
+<span id="cb35-24"><a href="#cb35-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-25"><a href="#cb35-25" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> process_user_input():</span>
+<span id="cb35-26"><a href="#cb35-26" aria-hidden="true" tabindex="-1"></a>    user_input <span class="op">=</span> input_entry.get()</span>
+<span id="cb35-27"><a href="#cb35-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> user_input.lower() <span class="op">==</span> <span class="st">&quot;выход&quot;</span>:</span>
+<span id="cb35-28"><a href="#cb35-28" aria-hidden="true" tabindex="-1"></a>        root.destroy()</span>
+<span id="cb35-29"><a href="#cb35-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb35-30"><a href="#cb35-30" aria-hidden="true" tabindex="-1"></a>        command <span class="op">=</span> parse_command(user_input)</span>
+<span id="cb35-31"><a href="#cb35-31" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> command:</span>
+<span id="cb35-32"><a href="#cb35-32" aria-hidden="true" tabindex="-1"></a>            params <span class="op">=</span> extract_params(user_input, command)</span>
+<span id="cb35-33"><a href="#cb35-33" aria-hidden="true" tabindex="-1"></a>            result <span class="op">=</span> execute_command(command, params)</span>
+<span id="cb35-34"><a href="#cb35-34" aria-hidden="true" tabindex="-1"></a>            output_text.insert(tk.END, <span class="ss">f&quot;</span><span class="ch">\n</span><span class="ss">Пользователь: </span><span class="sc">{</span>user_input<span class="sc">}</span><span class="ch">\n</span><span class="ss">Бот: </span><span class="sc">{</span>result<span class="sc">}</span><span class="ch">\n</span><span class="ss">&quot;</span>)</span>
+<span id="cb35-35"><a href="#cb35-35" aria-hidden="true" tabindex="-1"></a>            output_text.yview(tk.END)</span>
+<span id="cb35-36"><a href="#cb35-36" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb35-37"><a href="#cb35-37" aria-hidden="true" tabindex="-1"></a>            output_text.insert(tk.END, <span class="ss">f&quot;</span><span class="ch">\n</span><span class="ss">Пользователь: </span><span class="sc">{</span>user_input<span class="sc">}</span><span class="ch">\n</span><span class="ss">Бот: Не удалось распознать команду</span><span class="ch">\n</span><span class="ss">&quot;</span>)</span>
+<span id="cb35-38"><a href="#cb35-38" aria-hidden="true" tabindex="-1"></a>            output_text.yview(tk.END)</span>
+<span id="cb35-39"><a href="#cb35-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-40"><a href="#cb35-40" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> parse_command(text):</span>
+<span id="cb35-41"><a href="#cb35-41" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Пример парсинга команды по ключевым словам с использованием регулярных выражений</span></span>
+<span id="cb35-42"><a href="#cb35-42" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">&quot;получить модель&quot;</span> <span class="kw">in</span> text:</span>
+<span id="cb35-43"><a href="#cb35-43" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">&quot;получить_модель&quot;</span></span>
+<span id="cb35-44"><a href="#cb35-44" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> <span class="st">&quot;справка&quot;</span> <span class="kw">in</span> text:</span>
+<span id="cb35-45"><a href="#cb35-45" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">&quot;справка&quot;</span></span>
+<span id="cb35-46"><a href="#cb35-46" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb35-47"><a href="#cb35-47" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">None</span></span>
+<span id="cb35-48"><a href="#cb35-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-49"><a href="#cb35-49" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> extract_params(text, command):</span>
+<span id="cb35-50"><a href="#cb35-50" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Пример извлечения параметров из текста команды</span></span>
+<span id="cb35-51"><a href="#cb35-51" aria-hidden="true" tabindex="-1"></a>    params <span class="op">=</span> {}</span>
+<span id="cb35-52"><a href="#cb35-52" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> command <span class="op">==</span> <span class="st">&quot;получить_модель&quot;</span>:</span>
+<span id="cb35-53"><a href="#cb35-53" aria-hidden="true" tabindex="-1"></a>        match <span class="op">=</span> re.search(<span class="vs">r&quot;получить_модель (.+)&quot;</span>, text)</span>
+<span id="cb35-54"><a href="#cb35-54" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> match:</span>
+<span id="cb35-55"><a href="#cb35-55" aria-hidden="true" tabindex="-1"></a>            params[<span class="st">&quot;Модель&quot;</span>] <span class="op">=</span> match.group(<span class="dv">1</span>)</span>
+<span id="cb35-56"><a href="#cb35-56" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> params</span>
+<span id="cb35-57"><a href="#cb35-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-58"><a href="#cb35-58" aria-hidden="true" tabindex="-1"></a><span class="co"># Создание графического интерфейса с использованием Tkinter</span></span>
+<span id="cb35-59"><a href="#cb35-59" aria-hidden="true" tabindex="-1"></a>root <span class="op">=</span> tk.Tk()</span>
+<span id="cb35-60"><a href="#cb35-60" aria-hidden="true" tabindex="-1"></a>root.title(<span class="st">&quot;Бот&quot;</span>)</span>
+<span id="cb35-61"><a href="#cb35-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-62"><a href="#cb35-62" aria-hidden="true" tabindex="-1"></a><span class="co"># Создание текстового поля для вывода результата</span></span>
+<span id="cb35-63"><a href="#cb35-63" aria-hidden="true" tabindex="-1"></a>output_text <span class="op">=</span> scrolledtext.ScrolledText(root, height<span class="op">=</span><span class="dv">20</span>, width<span class="op">=</span><span class="dv">50</span>)</span>
+<span id="cb35-64"><a href="#cb35-64" aria-hidden="true" tabindex="-1"></a>output_text.pack()</span>
+<span id="cb35-65"><a href="#cb35-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-66"><a href="#cb35-66" aria-hidden="true" tabindex="-1"></a><span class="co"># Создание поля для ввода команды</span></span>
+<span id="cb35-67"><a href="#cb35-67" aria-hidden="true" tabindex="-1"></a>input_entry <span class="op">=</span> tk.Entry(root, width<span class="op">=</span><span class="dv">50</span>)</span>
+<span id="cb35-68"><a href="#cb35-68" aria-hidden="true" tabindex="-1"></a>input_entry.pack()</span>
+<span id="cb35-69"><a href="#cb35-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-70"><a href="#cb35-70" aria-hidden="true" tabindex="-1"></a><span class="co"># Создание кнопки &quot;Отправить&quot;</span></span>
+<span id="cb35-71"><a href="#cb35-71" aria-hidden="true" tabindex="-1"></a>send_button <span class="op">=</span> tk.Button(root, text<span class="op">=</span><span class="st">&quot;Отправить&quot;</span>, command<span class="op">=</span>process_user_input)</span>
+<span id="cb35-72"><a href="#cb35-72" aria-hidden="true" tabindex="-1"></a>send_button.pack()</span>
+<span id="cb35-73"><a href="#cb35-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-74"><a href="#cb35-74" aria-hidden="true" tabindex="-1"></a>root.mainloop()</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><img src="vertopal_b0241090a8b44d9ab0ee11f377be35af/image.png"
+alt="image.png" /></p>
+</div>
+<div class="cell markdown">
+<p>Вот так выглядить его интерфейс есть кнопка отправить и поле ввода и
+скролл</p>
+</div>
+<div class="cell markdown">
+<p><img src="vertopal_b0241090a8b44d9ab0ee11f377be35af/image.png"
+alt="image.png" /></p>
+</div>
+<div class="cell markdown">
+<p>Вот реакция на комманду справка</p>
+</div>
+<section id="43-подготовка-отчета" class="cell markdown">
+<h1>4.3 Подготовка отчета</h1>
+</section>
+<div class="cell markdown">
+<p>В результате данного модуля были выполнены почти все задачи</p>
+<p>4.1 Предсказание целевой переменной</p>
+<ul>
+<li>Было выполнено прогнозирование для контрольной выборки с помощью
+полученной модели. Определено качество модели на контрольной выборке с
+помощью коэффициента детерминации (R2). Записаны ответы, содержащие
+соответствующие атрибуты и предсказания целевой переменной, в
+файл.Результаты r2 ~0.8</li>
+</ul>
+<p>4.2 Разработка прикладного решения</p>
+<ul>
+<li>Был разработан программный интерфейс для итоговой модели машинного
+обучения. API приложению позволяет пользователям получать доступ к
+модели регрессии для прогнозирования расходов на привлечение клиентов.
+Разработано приложение с графическим интерфейсом, которое c помощью
+разработанного API генерировать прогнозы по новым данным в режиме
+реального времени. Приложение предоставляет справку по имеющимся
+командам и их параметрам.</li>
+</ul>
+<p>4.3 Подготовка отчета</p>
+<ul>
+<li>Был подготовлен отчет о проделанной работе по итогам сессии, в
+котором представлены результаты, выводы и обоснования выбора по каждому
+разделу задания. Результаты работы состоят из отчетов в форматах: .ipynb
+и .html, а также исходников с возможностью перекомпиляции. Архив
+Data.zip содержит все результаты выполнения модуля, а также все
+необходимые файлы для запуска и проверки участков кода. В файле
+Readme.txt описано содержимое результирующих файлов архива
+Data.zip.</li>
+</ul>
+</div>
+</body>
+</html>

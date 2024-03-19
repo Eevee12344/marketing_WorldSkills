@@ -1,0 +1,1682 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>9cf9b2e9f03549778cae36acb47a887f</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown">
+<p>Скачачиваем библиотеки</p>
+</div>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install dash pandas</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install seaborn</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install pandas</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install scipy</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install psycopg2<span class="op">-</span>binary</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install config</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install PyMySQL</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install sqlalchemy</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install numpy</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install matplotlib</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install seaborn</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install scipy</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Collecting dash
+  Using cached dash-2.16.1-py3-none-any.whl.metadata (10 kB)
+Collecting pandas
+  Using cached pandas-2.2.1-cp312-cp312-win_amd64.whl.metadata (19 kB)
+Collecting Flask&lt;3.1,&gt;=1.0.4 (from dash)
+  Using cached flask-3.0.2-py3-none-any.whl.metadata (3.6 kB)
+Collecting Werkzeug&lt;3.1 (from dash)
+  Using cached werkzeug-3.0.1-py3-none-any.whl.metadata (4.1 kB)
+Collecting plotly&gt;=5.0.0 (from dash)
+  Using cached plotly-5.20.0-py3-none-any.whl.metadata (7.0 kB)
+Requirement already satisfied: dash-html-components==2.0.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from dash) (2.0.0)
+Requirement already satisfied: dash-core-components==2.0.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from dash) (2.0.0)
+Requirement already satisfied: dash-table==5.0.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from dash) (5.0.0)
+Collecting importlib-metadata (from dash)
+  Using cached importlib_metadata-7.0.2-py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: typing-extensions&gt;=4.1.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from dash) (4.10.0)
+Collecting requests (from dash)
+  Using cached requests-2.31.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting retrying (from dash)
+  Using cached retrying-1.3.4-py3-none-any.whl.metadata (6.9 kB)
+Requirement already satisfied: nest-asyncio in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from dash) (1.6.0)
+Requirement already satisfied: setuptools in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from dash) (69.2.0)
+Collecting numpy&lt;2,&gt;=1.26.0 (from pandas)
+  Using cached numpy-1.26.4-cp312-cp312-win_amd64.whl.metadata (61 kB)
+Requirement already satisfied: python-dateutil&gt;=2.8.2 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz&gt;=2020.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from pandas) (2024.1)
+Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from pandas) (2024.1)
+Collecting Jinja2&gt;=3.1.2 (from Flask&lt;3.1,&gt;=1.0.4-&gt;dash)
+  Using cached Jinja2-3.1.3-py3-none-any.whl.metadata (3.3 kB)
+Collecting itsdangerous&gt;=2.1.2 (from Flask&lt;3.1,&gt;=1.0.4-&gt;dash)
+  Using cached itsdangerous-2.1.2-py3-none-any.whl.metadata (2.9 kB)
+Collecting click&gt;=8.1.3 (from Flask&lt;3.1,&gt;=1.0.4-&gt;dash)
+  Using cached click-8.1.7-py3-none-any.whl.metadata (3.0 kB)
+Collecting blinker&gt;=1.6.2 (from Flask&lt;3.1,&gt;=1.0.4-&gt;dash)
+  Using cached blinker-1.7.0-py3-none-any.whl.metadata (1.9 kB)
+Requirement already satisfied: tenacity&gt;=6.2.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from plotly&gt;=5.0.0-&gt;dash) (8.2.3)
+Requirement already satisfied: packaging in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from plotly&gt;=5.0.0-&gt;dash) (24.0)
+Requirement already satisfied: six&gt;=1.5 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from python-dateutil&gt;=2.8.2-&gt;pandas) (1.16.0)
+Collecting MarkupSafe&gt;=2.1.1 (from Werkzeug&lt;3.1-&gt;dash)
+  Using cached MarkupSafe-2.1.5-cp312-cp312-win_amd64.whl.metadata (3.1 kB)
+Requirement already satisfied: zipp&gt;=0.5 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from importlib-metadata-&gt;dash) (3.18.0)
+Collecting charset-normalizer&lt;4,&gt;=2 (from requests-&gt;dash)
+  Using cached charset_normalizer-3.3.2-cp312-cp312-win_amd64.whl.metadata (34 kB)
+Collecting idna&lt;4,&gt;=2.5 (from requests-&gt;dash)
+  Using cached idna-3.6-py3-none-any.whl.metadata (9.9 kB)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from requests-&gt;dash) (2.2.1)
+Collecting certifi&gt;=2017.4.17 (from requests-&gt;dash)
+  Using cached certifi-2024.2.2-py3-none-any.whl.metadata (2.2 kB)
+Requirement already satisfied: colorama in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from click&gt;=8.1.3-&gt;Flask&lt;3.1,&gt;=1.0.4-&gt;dash) (0.4.6)
+Using cached dash-2.16.1-py3-none-any.whl (10.2 MB)
+Using cached pandas-2.2.1-cp312-cp312-win_amd64.whl (11.5 MB)
+Using cached flask-3.0.2-py3-none-any.whl (101 kB)
+Using cached numpy-1.26.4-cp312-cp312-win_amd64.whl (15.5 MB)
+Using cached plotly-5.20.0-py3-none-any.whl (15.7 MB)
+Using cached werkzeug-3.0.1-py3-none-any.whl (226 kB)
+Using cached importlib_metadata-7.0.2-py3-none-any.whl (24 kB)
+Using cached requests-2.31.0-py3-none-any.whl (62 kB)
+Using cached retrying-1.3.4-py3-none-any.whl (11 kB)
+Using cached blinker-1.7.0-py3-none-any.whl (13 kB)
+Using cached certifi-2024.2.2-py3-none-any.whl (163 kB)
+Using cached charset_normalizer-3.3.2-cp312-cp312-win_amd64.whl (100 kB)
+Using cached click-8.1.7-py3-none-any.whl (97 kB)
+Using cached idna-3.6-py3-none-any.whl (61 kB)
+Using cached itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+Using cached Jinja2-3.1.3-py3-none-any.whl (133 kB)
+Using cached MarkupSafe-2.1.5-cp312-cp312-win_amd64.whl (17 kB)
+Installing collected packages: retrying, plotly, numpy, MarkupSafe, itsdangerous, importlib-metadata, idna, click, charset-normalizer, certifi, blinker, Werkzeug, requests, pandas, Jinja2, Flask, dash
+Successfully installed Flask-3.0.2 Jinja2-3.1.3 MarkupSafe-2.1.5 Werkzeug-3.0.1 blinker-1.7.0 certifi-2024.2.2 charset-normalizer-3.3.2 click-8.1.7 dash-2.16.1 idna-3.6 importlib-metadata-7.0.2 itsdangerous-2.1.2 numpy-1.26.4 pandas-2.2.1 plotly-5.20.0 requests-2.31.0 retrying-1.3.4
+Collecting seaborn
+  Using cached seaborn-0.13.2-py3-none-any.whl.metadata (5.4 kB)
+Requirement already satisfied: numpy!=1.24.0,&gt;=1.20 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from seaborn) (1.26.4)
+Requirement already satisfied: pandas&gt;=1.2 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from seaborn) (2.2.1)
+Collecting matplotlib!=3.6.1,&gt;=3.4 (from seaborn)
+  Using cached matplotlib-3.8.3-cp312-cp312-win_amd64.whl.metadata (5.9 kB)
+Collecting contourpy&gt;=1.0.1 (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn)
+  Using cached contourpy-1.2.0-cp312-cp312-win_amd64.whl.metadata (5.8 kB)
+Collecting cycler&gt;=0.10 (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn)
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools&gt;=4.22.0 (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn)
+  Using cached fonttools-4.50.0-cp312-cp312-win_amd64.whl.metadata (162 kB)
+Collecting kiwisolver&gt;=1.3.1 (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn)
+  Using cached kiwisolver-1.4.5-cp312-cp312-win_amd64.whl.metadata (6.5 kB)
+Requirement already satisfied: packaging&gt;=20.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (24.0)
+Collecting pillow&gt;=8 (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn)
+  Using cached pillow-10.2.0-cp312-cp312-win_amd64.whl.metadata (9.9 kB)
+Collecting pyparsing&gt;=2.3.1 (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn)
+  Using cached pyparsing-3.1.2-py3-none-any.whl.metadata (5.1 kB)
+Requirement already satisfied: python-dateutil&gt;=2.7 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (2.9.0.post0)
+Requirement already satisfied: pytz&gt;=2020.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from pandas&gt;=1.2-&gt;seaborn) (2024.1)
+Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from pandas&gt;=1.2-&gt;seaborn) (2024.1)
+Requirement already satisfied: six&gt;=1.5 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.16.0)
+Using cached seaborn-0.13.2-py3-none-any.whl (294 kB)
+Using cached matplotlib-3.8.3-cp312-cp312-win_amd64.whl (7.6 MB)
+Using cached contourpy-1.2.0-cp312-cp312-win_amd64.whl (187 kB)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Using cached fonttools-4.50.0-cp312-cp312-win_amd64.whl (2.2 MB)
+Using cached kiwisolver-1.4.5-cp312-cp312-win_amd64.whl (56 kB)
+Using cached pillow-10.2.0-cp312-cp312-win_amd64.whl (2.6 MB)
+Using cached pyparsing-3.1.2-py3-none-any.whl (103 kB)
+Installing collected packages: pyparsing, pillow, kiwisolver, fonttools, cycler, contourpy, matplotlib, seaborn
+Successfully installed contourpy-1.2.0 cycler-0.12.1 fonttools-4.50.0 kiwisolver-1.4.5 matplotlib-3.8.3 pillow-10.2.0 pyparsing-3.1.2 seaborn-0.13.2
+Requirement already satisfied: pandas in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (2.2.1)
+Requirement already satisfied: numpy&lt;2,&gt;=1.26.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from pandas) (1.26.4)
+Requirement already satisfied: python-dateutil&gt;=2.8.2 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz&gt;=2020.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from pandas) (2024.1)
+Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from pandas) (2024.1)
+Requirement already satisfied: six&gt;=1.5 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from python-dateutil&gt;=2.8.2-&gt;pandas) (1.16.0)
+Collecting scipy
+  Using cached scipy-1.12.0-cp312-cp312-win_amd64.whl.metadata (60 kB)
+Requirement already satisfied: numpy&lt;1.29.0,&gt;=1.22.4 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from scipy) (1.26.4)
+Using cached scipy-1.12.0-cp312-cp312-win_amd64.whl (45.8 MB)
+Installing collected packages: scipy
+Successfully installed scipy-1.12.0
+Collecting psycopg2-binary
+  Using cached psycopg2_binary-2.9.9-cp312-cp312-win_amd64.whl.metadata (4.6 kB)
+Using cached psycopg2_binary-2.9.9-cp312-cp312-win_amd64.whl (1.2 MB)
+Installing collected packages: psycopg2-binary
+Successfully installed psycopg2-binary-2.9.9
+Collecting config
+  Using cached config-0.5.1-py2.py3-none-any.whl.metadata (1.4 kB)
+Using cached config-0.5.1-py2.py3-none-any.whl (20 kB)
+Installing collected packages: config
+Successfully installed config-0.5.1
+Collecting PyMySQL
+  Using cached PyMySQL-1.1.0-py3-none-any.whl.metadata (4.4 kB)
+Using cached PyMySQL-1.1.0-py3-none-any.whl (44 kB)
+Installing collected packages: PyMySQL
+Successfully installed PyMySQL-1.1.0
+Collecting sqlalchemy
+  Using cached SQLAlchemy-2.0.28-cp312-cp312-win_amd64.whl.metadata (9.8 kB)
+Requirement already satisfied: typing-extensions&gt;=4.6.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from sqlalchemy) (4.10.0)
+Collecting greenlet!=0.4.17 (from sqlalchemy)
+  Using cached greenlet-3.0.3-cp312-cp312-win_amd64.whl.metadata (3.9 kB)
+Using cached SQLAlchemy-2.0.28-cp312-cp312-win_amd64.whl (2.1 MB)
+Using cached greenlet-3.0.3-cp312-cp312-win_amd64.whl (293 kB)
+Installing collected packages: greenlet, sqlalchemy
+Successfully installed greenlet-3.0.3 sqlalchemy-2.0.28
+Requirement already satisfied: numpy in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (1.26.4)
+Requirement already satisfied: matplotlib in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (3.8.3)
+Requirement already satisfied: contourpy&gt;=1.0.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib) (1.2.0)
+Requirement already satisfied: cycler&gt;=0.10 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib) (0.12.1)
+Requirement already satisfied: fonttools&gt;=4.22.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib) (4.50.0)
+Requirement already satisfied: kiwisolver&gt;=1.3.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib) (1.4.5)
+Requirement already satisfied: numpy&lt;2,&gt;=1.21 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib) (1.26.4)
+Requirement already satisfied: packaging&gt;=20.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib) (24.0)
+Requirement already satisfied: pillow&gt;=8 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib) (10.2.0)
+Requirement already satisfied: pyparsing&gt;=2.3.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib) (3.1.2)
+Requirement already satisfied: python-dateutil&gt;=2.7 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib) (2.9.0.post0)
+Requirement already satisfied: six&gt;=1.5 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib) (1.16.0)
+Requirement already satisfied: seaborn in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (0.13.2)
+Requirement already satisfied: numpy!=1.24.0,&gt;=1.20 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from seaborn) (1.26.4)
+Requirement already satisfied: pandas&gt;=1.2 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from seaborn) (2.2.1)
+Requirement already satisfied: matplotlib!=3.6.1,&gt;=3.4 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from seaborn) (3.8.3)
+Requirement already satisfied: contourpy&gt;=1.0.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.2.0)
+Requirement already satisfied: cycler&gt;=0.10 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (0.12.1)
+Requirement already satisfied: fonttools&gt;=4.22.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (4.50.0)
+Requirement already satisfied: kiwisolver&gt;=1.3.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.4.5)
+Requirement already satisfied: packaging&gt;=20.0 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (24.0)
+Requirement already satisfied: pillow&gt;=8 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (10.2.0)
+Requirement already satisfied: pyparsing&gt;=2.3.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (3.1.2)
+Requirement already satisfied: python-dateutil&gt;=2.7 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (2.9.0.post0)
+Requirement already satisfied: pytz&gt;=2020.1 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from pandas&gt;=1.2-&gt;seaborn) (2024.1)
+Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from pandas&gt;=1.2-&gt;seaborn) (2024.1)
+Requirement already satisfied: six&gt;=1.5 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.16.0)
+Requirement already satisfied: scipy in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (1.12.0)
+Requirement already satisfied: numpy&lt;1.29.0,&gt;=1.22.4 in c:\users\tooer\onedrive\рабочий стол\marketing\сессия 22\.venv\lib\site-packages (from scipy) (1.26.4)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>импортируем библиотеки</p>
+</div>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> dash</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> dash_core_components <span class="im">as</span> dcc</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> dash_html_components <span class="im">as</span> html</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> plotly.express <span class="im">as</span> px</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy <span class="im">import</span> stats</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> norm, skew</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sqlalchemy <span class="im">import</span> create_engine</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> psycopg2</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> dash</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> dash_core_components <span class="im">as</span> dcc</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> dash <span class="im">import</span> Dash, html, dash_table, dcc, callback, Output, Input</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> dash_html_components <span class="im">as</span> html</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> plotly.graph_objs <span class="im">as</span> go </span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> plotly.express <span class="im">as</span> px</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>загружаем данные</p>
+</div>
+<div class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>conn <span class="op">=</span> psycopg2.<span class="ex">connect</span>(</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    dbname<span class="op">=</span><span class="st">&quot;Csv&quot;</span>,</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    user<span class="op">=</span><span class="st">&quot;postgres&quot;</span>,</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    password<span class="op">=</span><span class="st">&quot;12345&quot;</span>,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    host<span class="op">=</span><span class="st">&quot;localhost&quot;</span>,</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    port<span class="op">=</span><span class="st">&quot;5432&quot;</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>cursor <span class="op">=</span> conn.cursor()</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>cursor.execute(<span class="st">&quot;SELECT * FROM csv.expenses&quot;</span>)</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> cursor.fetchall()</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>df_ex <span class="op">=</span> pd.DataFrame(results)</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>cursor <span class="op">=</span> conn.cursor()</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>cursor.execute(<span class="st">&quot;SELECT * FROM csv.order&quot;</span>)</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> cursor.fetchall()</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>df_or <span class="op">=</span> pd.DataFrame(results)</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>cursor <span class="op">=</span> conn.cursor()</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>cursor.execute(<span class="st">&quot;SELECT * FROM csv.visitation&quot;</span>)</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> cursor.fetchall()</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>df_vi <span class="op">=</span> pd.DataFrame(results)</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>cursor <span class="op">=</span> conn.cursor()</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>cursor.execute(<span class="st">&quot;SELECT * FROM public.merged_data&quot;</span>)</span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> cursor.fetchall()</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>merged_data <span class="op">=</span> pd.DataFrame(results)</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>conn.close()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>merged_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10006613101</td>
+      <td>2022-06-30 10:54:08</td>
+      <td>Android</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>FaceBoom</td>
+      <td>2022-06-30 10:54:29</td>
+      <td>180.253333</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>100256006722</td>
+      <td>2022-09-27 03:51:19</td>
+      <td>iPhone</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>TipTop</td>
+      <td>2022-09-27 03:51:19</td>
+      <td>267.687821</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>100293023530</td>
+      <td>2022-07-13 08:46:50</td>
+      <td>Mac</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>TipTop</td>
+      <td>2022-07-14 11:13:04</td>
+      <td>267.687821</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>100311327873</td>
+      <td>2022-08-18 03:42:23</td>
+      <td>PC</td>
+      <td>Thailand</td>
+      <td>5.99</td>
+      <td>WahooNetBanner</td>
+      <td>2022-08-19 07:26:38</td>
+      <td>28.616667</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>100352169572</td>
+      <td>2022-08-04 04:37:43</td>
+      <td>iPhone</td>
+      <td>Russia</td>
+      <td>9.99</td>
+      <td>TipTop</td>
+      <td>2022-08-05 05:19:35</td>
+      <td>267.687821</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>8859</th>
+      <td>999645428220</td>
+      <td>2022-10-01 05:35:55</td>
+      <td>Mac</td>
+      <td>Russia</td>
+      <td>5.99</td>
+      <td>TipTop</td>
+      <td>2022-10-01 05:36:23</td>
+      <td>267.687821</td>
+    </tr>
+    <tr>
+      <th>8860</th>
+      <td>999659859721</td>
+      <td>2022-09-04 10:33:02</td>
+      <td>Mac</td>
+      <td>Thailand</td>
+      <td>4.99</td>
+      <td>organic</td>
+      <td>2022-09-08 01:28:08</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>8861</th>
+      <td>99970989271</td>
+      <td>2022-09-21 07:32:47</td>
+      <td>Mac</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>FaceBoom</td>
+      <td>2022-09-21 07:33:27</td>
+      <td>180.253333</td>
+    </tr>
+    <tr>
+      <th>8862</th>
+      <td>999779032958</td>
+      <td>2022-07-04 10:56:11</td>
+      <td>iPhone</td>
+      <td>Russia</td>
+      <td>5.99</td>
+      <td>TipTop</td>
+      <td>2022-07-05 23:28:13</td>
+      <td>267.687821</td>
+    </tr>
+    <tr>
+      <th>8863</th>
+      <td>999895427370</td>
+      <td>2022-09-19 23:31:53</td>
+      <td>Android</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>FaceBoom</td>
+      <td>2022-09-19 23:33:23</td>
+      <td>180.253333</td>
+    </tr>
+  </tbody>
+</table>
+<p>8864 rows × 8 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df_ex.columns <span class="op">=</span> [<span class="st">&#39;dt&#39;</span>, <span class="st">&#39;Channel&#39;</span>, <span class="st">&#39;costs&#39;</span>]</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>df_or.columns <span class="op">=</span> [<span class="st">&#39;User_Id&#39;</span> , <span class="st">&#39;Event_Dt&#39;</span>,<span class="st">&#39;Revenue&#39;</span>]</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>df_vi.columns <span class="op">=</span> [<span class="st">&#39;User_Id&#39;</span> , <span class="st">&#39;Region&#39;</span>,<span class="st">&#39;Device&#39;</span>,<span class="st">&#39;Channel&#39;</span>,<span class="st">&#39;Session_Start&#39;</span>,<span class="st">&#39;Session_End&#39;</span>]</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>merged_data.columns <span class="op">=</span> [<span class="st">&#39;User_Id&#39;</span>,<span class="st">&#39;Session_Start&#39;</span>,<span class="st">&#39;Device&#39;</span>,<span class="st">&#39;Region&#39;</span>,<span class="st">&#39;Revenue&#39;</span>,<span class="st">&#39;Channel&#39;</span>,<span class="st">&#39;Event_Dt&#39;</span>,<span class="st">&#39;mean_cost&#39;</span>]</span></code></pre></div>
+</div>
+<section id="21-построение-дашборда---22" class="cell markdown">
+<h1>2.1 Построение дашборда - 2.2</h1>
+</section>
+<div class="cell markdown">
+<p>Создадим дашборд через pandas dash ведь он очень удобный и имеет
+много функций</p>
+</div>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> merged_data</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;time&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;Event_Dt&#39;</span>] <span class="op">-</span> df[<span class="st">&#39;Session_Start&#39;</span>]</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>df</span></code></pre></div>
+<div class="output execute_result" data-execution_count="16">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>User_Id</th>
+      <th>Session_Start</th>
+      <th>Device</th>
+      <th>Region</th>
+      <th>Revenue</th>
+      <th>Channel</th>
+      <th>Event_Dt</th>
+      <th>mean_cost</th>
+      <th>time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10006613101</td>
+      <td>2022-06-30 10:54:08</td>
+      <td>Android</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>FaceBoom</td>
+      <td>2022-06-30 10:54:29</td>
+      <td>180.253333</td>
+      <td>0 days 00:00:21</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>100256006722</td>
+      <td>2022-09-27 03:51:19</td>
+      <td>iPhone</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>TipTop</td>
+      <td>2022-09-27 03:51:19</td>
+      <td>267.687821</td>
+      <td>0 days 00:00:00</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>100293023530</td>
+      <td>2022-07-13 08:46:50</td>
+      <td>Mac</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>TipTop</td>
+      <td>2022-07-14 11:13:04</td>
+      <td>267.687821</td>
+      <td>1 days 02:26:14</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>100311327873</td>
+      <td>2022-08-18 03:42:23</td>
+      <td>PC</td>
+      <td>Thailand</td>
+      <td>5.99</td>
+      <td>WahooNetBanner</td>
+      <td>2022-08-19 07:26:38</td>
+      <td>28.616667</td>
+      <td>1 days 03:44:15</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>100352169572</td>
+      <td>2022-08-04 04:37:43</td>
+      <td>iPhone</td>
+      <td>Russia</td>
+      <td>9.99</td>
+      <td>TipTop</td>
+      <td>2022-08-05 05:19:35</td>
+      <td>267.687821</td>
+      <td>1 days 00:41:52</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>8859</th>
+      <td>999645428220</td>
+      <td>2022-10-01 05:35:55</td>
+      <td>Mac</td>
+      <td>Russia</td>
+      <td>5.99</td>
+      <td>TipTop</td>
+      <td>2022-10-01 05:36:23</td>
+      <td>267.687821</td>
+      <td>0 days 00:00:28</td>
+    </tr>
+    <tr>
+      <th>8860</th>
+      <td>999659859721</td>
+      <td>2022-09-04 10:33:02</td>
+      <td>Mac</td>
+      <td>Thailand</td>
+      <td>4.99</td>
+      <td>organic</td>
+      <td>2022-09-08 01:28:08</td>
+      <td>NaN</td>
+      <td>3 days 14:55:06</td>
+    </tr>
+    <tr>
+      <th>8861</th>
+      <td>99970989271</td>
+      <td>2022-09-21 07:32:47</td>
+      <td>Mac</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>FaceBoom</td>
+      <td>2022-09-21 07:33:27</td>
+      <td>180.253333</td>
+      <td>0 days 00:00:40</td>
+    </tr>
+    <tr>
+      <th>8862</th>
+      <td>999779032958</td>
+      <td>2022-07-04 10:56:11</td>
+      <td>iPhone</td>
+      <td>Russia</td>
+      <td>5.99</td>
+      <td>TipTop</td>
+      <td>2022-07-05 23:28:13</td>
+      <td>267.687821</td>
+      <td>1 days 12:32:02</td>
+    </tr>
+    <tr>
+      <th>8863</th>
+      <td>999895427370</td>
+      <td>2022-09-19 23:31:53</td>
+      <td>Android</td>
+      <td>Russia</td>
+      <td>4.99</td>
+      <td>FaceBoom</td>
+      <td>2022-09-19 23:33:23</td>
+      <td>180.253333</td>
+      <td>0 days 00:01:30</td>
+    </tr>
+  </tbody>
+</table>
+<p>8864 rows × 9 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>выбрали самые важные показатели , чтобы отобразить их на дашборде ,
+добавил множенственный выбор для 'DAU', 'WAU', 'MAU' можно сделать дял
+каждой колонки (долго)</p>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>dau <span class="op">=</span> df[<span class="st">&#39;User_Id&#39;</span>].nunique()<span class="op">/</span><span class="dv">180</span> <span class="co">#количество уникальных пользователей за день</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>wau <span class="op">=</span> df[<span class="st">&#39;User_Id&#39;</span>].nunique()<span class="op">/</span><span class="dv">26</span>  <span class="co">#среднее количество уникальных пользователей за неделю</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>mau <span class="op">=</span> df.groupby(df[<span class="st">&#39;Event_Dt&#39;</span>].dt.month)[<span class="st">&#39;User_Id&#39;</span>].nunique().mean()  </span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>dic<span class="op">=</span>{<span class="st">&#39;dau&#39;</span>:dau, <span class="st">&#39;mau&#39;</span>:mau ,<span class="st">&#39;wau&#39;</span>:wau }</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>region_mean_time_to_purchase <span class="op">=</span> df.groupby(<span class="st">&#39;Region&#39;</span>)[<span class="st">&#39;time&#39;</span>].mean()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>all_graph <span class="op">=</span>  dcc.Graph(<span class="bu">id</span><span class="op">=</span><span class="st">&#39;dau-wau-mau-graph&#39;</span>, figure<span class="op">=</span>{ </span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;data&#39;</span>: [go.Bar(x<span class="op">=</span>[<span class="st">&#39;DAU&#39;</span>, <span class="st">&#39;WAU&#39;</span>, <span class="st">&#39;MAU&#39;</span> ],</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>                        y<span class="op">=</span>[dau, wau, mau ], marker<span class="op">=</span><span class="bu">dict</span>(color<span class="op">=</span><span class="st">&#39;turquoise&#39;</span>))], </span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;layout&#39;</span>: {<span class="st">&#39;title&#39;</span>: <span class="st">&#39;DAU, WAU, MAU&#39;</span>, <span class="st">&#39;plot_bgcolor&#39;</span>: <span class="st">&#39;#f8f8fa&#39;</span>, <span class="st">&#39;paper_bgcolor&#39;</span>: <span class="st">&#39;#f8f8fa&#39;</span>} </span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    }),</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>app <span class="op">=</span> dash.Dash(<span class="va">__name__</span>) </span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co">#создание макета дашборда </span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>app.layout <span class="op">=</span> html.Div([ </span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>    html.H1(<span class="st">&quot;Анализ продуктовых метрик и показателей электронной коммерции&quot;</span>, style<span class="op">=</span>{<span class="st">&#39;color&#39;</span>: <span class="st">&#39;#150ba2&#39;</span>}), </span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>    html.Hr(),</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>     dcc.RadioItems(options<span class="op">=</span>[<span class="st">&#39;dau&#39;</span>, <span class="st">&#39;wau&#39;</span>, <span class="st">&#39;mau&#39;</span>], value<span class="op">=</span><span class="st">&#39;mau&#39;</span>, <span class="bu">id</span><span class="op">=</span><span class="st">&#39;controls-and-radio-item&#39;</span> , style<span class="op">=</span>{<span class="st">&#39;backgroundColor&#39;</span>: <span class="st">&#39;#f0f0f0&#39;</span>}),</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>     dcc.Graph(figure<span class="op">=</span>{}, <span class="bu">id</span><span class="op">=</span><span class="st">&#39;controls-and-graph&#39;</span>),</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>    dcc.Graph(<span class="bu">id</span><span class="op">=</span><span class="st">&#39;transaction-distribution-graph&#39;</span>, figure<span class="op">=</span>{</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;data&#39;</span>: [go.Bar(x<span class="op">=</span>region_mean_time_to_purchase.index , y<span class="op">=</span> region_mean_time_to_purchase.values, marker<span class="op">=</span><span class="bu">dict</span>(color<span class="op">=</span><span class="st">&#39;#aaaaaf&#39;</span>))], </span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;layout&#39;</span>: {<span class="st">&#39;title&#39;</span>: <span class="st">&#39;среднее время до первой покупки&#39;</span>, <span class="st">&#39;plot_bgcolor&#39;</span>: <span class="st">&#39;#f1f9fa&#39;</span>, <span class="st">&#39;paper_bgcolor&#39;</span>: <span class="st">&#39;#f1f9fa&#39;</span>} </span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>    }), </span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>    dcc.Graph(<span class="bu">id</span><span class="op">=</span><span class="st">&#39;country-distribution-graph&#39;</span>, figure<span class="op">=</span>{ </span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;data&#39;</span>: [go.Bar(x<span class="op">=</span>df[<span class="st">&#39;Region&#39;</span>].value_counts().index,</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>                        y<span class="op">=</span>df[<span class="st">&#39;Region&#39;</span>].value_counts().values, marker<span class="op">=</span><span class="bu">dict</span>(color<span class="op">=</span><span class="st">&#39;#abdfff&#39;</span>))], </span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;layout&#39;</span>: {<span class="st">&#39;title&#39;</span>: <span class="st">&#39;Распределение пользователей по странам&#39;</span>, <span class="st">&#39;plot_bgcolor&#39;</span>: <span class="st">&#39;#f8f9fa&#39;</span>, <span class="st">&#39;paper_bgcolor&#39;</span>: <span class="st">&#39;#f8f9fa&#39;</span>} </span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>    }), </span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>    <span class="co">#график для распределения пользователей по устройствам </span></span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>    dcc.Graph(<span class="bu">id</span><span class="op">=</span><span class="st">&#39;device-distribution-graph&#39;</span>, figure<span class="op">=</span>{ </span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;data&#39;</span>: [go.Bar(x<span class="op">=</span>df[<span class="st">&#39;Device&#39;</span>].value_counts().index,</span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a>                        y<span class="op">=</span>df[<span class="st">&#39;Device&#39;</span>].value_counts().values, marker<span class="op">=</span><span class="bu">dict</span>(color<span class="op">=</span><span class="st">&#39;#7595a9&#39;</span>))], </span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;layout&#39;</span>: {<span class="st">&#39;title&#39;</span>: <span class="st">&#39;Распределение пользователей по устройствам&#39;</span>, <span class="st">&#39;plot_bgcolor&#39;</span>: <span class="st">&#39;#f8f9fa&#39;</span>, <span class="st">&#39;paper_bgcolor&#39;</span>: <span class="st">&#39;#f8f9fa&#39;</span>} </span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>    }), </span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a>    <span class="co">#график для распределения пользователей по каналам привлечения </span></span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a>    dcc.Graph(<span class="bu">id</span><span class="op">=</span><span class="st">&#39;channel-distribution-graph&#39;</span>, figure<span class="op">=</span>{ </span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;data&#39;</span>: [go.Bar(x<span class="op">=</span>df[<span class="st">&#39;Channel&#39;</span>].value_counts().index,</span>
+<span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a>                        y<span class="op">=</span>df[<span class="st">&#39;Channel&#39;</span>].value_counts().values, marker<span class="op">=</span><span class="bu">dict</span>(color<span class="op">=</span><span class="st">&#39;#6495ed&#39;</span>))], </span>
+<span id="cb11-31"><a href="#cb11-31" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;layout&#39;</span>: {<span class="st">&#39;title&#39;</span>: <span class="st">&#39;Распределение пользователей по каналам привлечения&#39;</span>, <span class="st">&#39;plot_bgcolor&#39;</span>: <span class="st">&#39;#f8f9fa&#39;</span>, <span class="st">&#39;paper_bgcolor&#39;</span>: <span class="st">&#39;#f8f9fa&#39;</span>} </span>
+<span id="cb11-32"><a href="#cb11-32" aria-hidden="true" tabindex="-1"></a>    }) </span>
+<span id="cb11-33"><a href="#cb11-33" aria-hidden="true" tabindex="-1"></a>]) </span>
+<span id="cb11-34"><a href="#cb11-34" aria-hidden="true" tabindex="-1"></a><span class="at">@app.callback</span>(</span>
+<span id="cb11-35"><a href="#cb11-35" aria-hidden="true" tabindex="-1"></a>    Output(component_id<span class="op">=</span><span class="st">&#39;controls-and-graph&#39;</span>, component_property<span class="op">=</span><span class="st">&#39;figure&#39;</span>),</span>
+<span id="cb11-36"><a href="#cb11-36" aria-hidden="true" tabindex="-1"></a>    Input(component_id<span class="op">=</span><span class="st">&#39;controls-and-radio-item&#39;</span>, component_property<span class="op">=</span><span class="st">&#39;value&#39;</span>)</span>
+<span id="cb11-37"><a href="#cb11-37" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb11-38"><a href="#cb11-38" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> update_graph(chosen):</span>
+<span id="cb11-39"><a href="#cb11-39" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> {<span class="st">&#39;data&#39;</span>: [go.Bar(x<span class="op">=</span>[chosen], y<span class="op">=</span>[dic[chosen]], marker<span class="op">=</span><span class="bu">dict</span>(color<span class="op">=</span><span class="st">&#39;#abdfff&#39;</span>))],</span>
+<span id="cb11-40"><a href="#cb11-40" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;layout&#39;</span>: {<span class="st">&#39;title&#39;</span>: chosen, <span class="st">&#39;plot_bgcolor&#39;</span>: <span class="st">&#39;#f1f9fa&#39;</span>, <span class="st">&#39;paper_bgcolor&#39;</span>: <span class="st">&#39;#f1f9fa&#39;</span>}}</span>
+<span id="cb11-41"><a href="#cb11-41" aria-hidden="true" tabindex="-1"></a>                            </span>
+<span id="cb11-42"><a href="#cb11-42" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">&#39;__main__&#39;</span>:   </span>
+<span id="cb11-43"><a href="#cb11-43" aria-hidden="true" tabindex="-1"></a>    app.run_server(debug<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output display_data">
+
+        <iframe
+            width="100%"
+            height="650"
+            src="http://127.0.0.1:8050/"
+            frameborder="0"
+            allowfullscreen
+            
+        ></iframe>
+        
+</div>
+</div>
+<div class="cell markdown">
+<p>Данный даш борд показывает все основые метрики и показатели
+данных</p>
+</div>
+<section id="2" class="cell markdown">
+<h3>2</h3>
+</section>
+<div class="cell code" data-execution_count="118">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>app <span class="op">=</span> dash.Dash(<span class="va">__name__</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>diamonds <span class="op">=</span> df_ex</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>scatter <span class="op">=</span> px.scatter(</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>   data_frame<span class="op">=</span>diamonds,</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>   x<span class="op">=</span><span class="st">&quot;Channel&quot;</span>,</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>   y<span class="op">=</span><span class="st">&quot;costs&quot;</span>,</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>   color<span class="op">=</span><span class="st">&quot;dt&quot;</span>,</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>   title<span class="op">=</span><span class="st">&quot;Channel vs. costs&quot;</span>,</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>   width<span class="op">=</span><span class="dv">600</span>,</span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>   height<span class="op">=</span><span class="dv">400</span>,</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>histogram <span class="op">=</span> px.histogram(</span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>   data_frame<span class="op">=</span>diamonds,</span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>   x<span class="op">=</span><span class="st">&quot;costs&quot;</span>,</span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>   title<span class="op">=</span><span class="st">&quot;Histogram of costs&quot;</span>,</span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>   width<span class="op">=</span><span class="dv">600</span>,</span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>   height<span class="op">=</span><span class="dv">400</span>,</span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>violin <span class="op">=</span> px.violin(</span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>   data_frame<span class="op">=</span>diamonds,</span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>   x<span class="op">=</span><span class="st">&quot;dt&quot;</span>,</span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>   y<span class="op">=</span><span class="st">&quot;costs&quot;</span>,</span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>   title<span class="op">=</span><span class="st">&quot;dt vs. costs&quot;</span>,</span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>   width<span class="op">=</span><span class="dv">600</span>,</span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>   height<span class="op">=</span><span class="dv">400</span>,</span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a>left_fig <span class="op">=</span> html.Div(children<span class="op">=</span>dcc.Graph(figure<span class="op">=</span>scatter))</span>
+<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a>right_fig <span class="op">=</span> html.Div(children<span class="op">=</span>dcc.Graph(figure<span class="op">=</span>histogram))</span>
+<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a>upper_div <span class="op">=</span> html.Div([left_fig, right_fig], style<span class="op">=</span>{<span class="st">&quot;display&quot;</span>: <span class="st">&quot;flex&quot;</span>})</span>
+<span id="cb12-35"><a href="#cb12-35" aria-hidden="true" tabindex="-1"></a>central_div <span class="op">=</span> html.Div(</span>
+<span id="cb12-36"><a href="#cb12-36" aria-hidden="true" tabindex="-1"></a>   children<span class="op">=</span>dcc.Graph(figure<span class="op">=</span>violin),</span>
+<span id="cb12-37"><a href="#cb12-37" aria-hidden="true" tabindex="-1"></a>   style<span class="op">=</span>{<span class="st">&quot;display&quot;</span>: <span class="st">&quot;flex&quot;</span>, <span class="st">&quot;justify-content&quot;</span>: <span class="st">&quot;center&quot;</span>},</span>
+<span id="cb12-38"><a href="#cb12-38" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb12-39"><a href="#cb12-39" aria-hidden="true" tabindex="-1"></a>app.layout <span class="op">=</span> html.Div([upper_div, central_div])</span>
+<span id="cb12-40"><a href="#cb12-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-41"><a href="#cb12-41" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">&quot;__main__&quot;</span>:</span>
+<span id="cb12-42"><a href="#cb12-42" aria-hidden="true" tabindex="-1"></a>   app.run_server(debug<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output display_data">
+
+        <iframe
+            width="100%"
+            height="650"
+            src="http://127.0.0.1:8050/"
+            frameborder="0"
+            allowfullscreen
+            
+        ></iframe>
+        
+</div>
+</div>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install pandas </span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install matplotlib</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install seaborn</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install dash</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install sqlalchemy</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&quot;pip&quot; �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>данный даш борд показывает многое</p>
+</div>
+<section id="23-создание-профилей-пользователей" class="cell markdown">
+<h1>2.3 Создание профилей пользователей</h1>
+</section>
+<div class="cell markdown">
+<p>Набор с профелями пользователей был сформирован в 1 сессии</p>
+</div>
+<div class="cell markdown">
+<p>Посмотрим по каким рекламным каналам шло привлечение
+пользователей</p>
+</div>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#По каким рекламным каналам шло привлечение пользователей? Какие каналы приносят больше всего платящих пользователей?</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>list_of_ch <span class="op">=</span> <span class="bu">set</span>(df[<span class="st">&#39;Channel&#39;</span>])</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>list_of_ch</span></code></pre></div>
+<div class="output execute_result" data-execution_count="22">
+<pre><code>{&#39;AdNonSense&#39;,
+ &#39;FaceBoom&#39;,
+ &#39;LeapBob&#39;,
+ &#39;MediaTornado&#39;,
+ &#39;OppleCreativeMedia&#39;,
+ &#39;RocketSuperAds&#39;,
+ &#39;TipTop&#39;,
+ &#39;WahooNetBanner&#39;,
+ &#39;YRabbit&#39;,
+ &#39;lambdaMediaAds&#39;,
+ &#39;organic&#39;}</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Посмотрим из каких стран приходят посетители и какие страны дают
+больше всего платящих пользователей?</p>
+</div>
+<div class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Из каких стран приходят посетители? Какие страны дают больше всего платящих пользователей?</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>most_users <span class="op">=</span> df[<span class="st">&#39;Region&#39;</span>].value_counts() </span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>most_users</span></code></pre></div>
+<div class="output execute_result" data-execution_count="23">
+<pre><code>Region
+Russia      6885
+Turkey       700
+Thailand     663
+China        616
+Name: count, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Это оказалась Russia</p>
+</div>
+<div class="cell markdown">
+<p>Посмотрим какими устройствами они пользуются и с каких устройств чаще
+всего заходят платящие пользователи?</p>
+</div>
+<div class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>list_of_dv <span class="op">=</span> <span class="bu">set</span>(df[<span class="st">&#39;Device&#39;</span>])</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>list_of_dv</span></code></pre></div>
+<div class="output execute_result" data-execution_count="24">
+<pre><code>{&#39;Android&#39;, &#39;Mac&#39;, &#39;PC&#39;, &#39;iPhone&#39;}</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Посмотрим по каким рекламным каналам шло привлечение пользователей и
+какие каналы приносят больше всего платящих пользователей?</p>
+</div>
+<div class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>popular_dv <span class="op">=</span> df[<span class="st">&#39;Device&#39;</span>].value_counts() </span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>popular_dv </span></code></pre></div>
+<div class="output execute_result" data-execution_count="25">
+<pre><code>Device
+iPhone     3374
+Android    2047
+Mac        1908
+PC         1535
+Name: count, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>им оказался iphone</p>
+</div>
+<section id="1" class="cell markdown">
+<h5>1</h5>
+</section>
+<div class="cell markdown">
+<p>Создадим Dataframe с данными пользователей</p>
+</div>
+<div class="cell code" data-execution_count="51">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>user_data <span class="op">=</span> vis.drop(columns<span class="op">=</span>[<span class="st">&#39;Session Start&#39;</span>])</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>user_data <span class="op">=</span> user_data.drop(columns<span class="op">=</span>[<span class="st">&#39;Session End&#39;</span>])</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>user_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="51">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>User Id</th>
+      <th>Region</th>
+      <th>Device</th>
+      <th>Channel</th>
+      <th>Revenue</th>
+      <th>costs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>981449118918</td>
+      <td>Russia</td>
+      <td>iPhone</td>
+      <td>organic</td>
+      <td>4.99</td>
+      <td>6.24</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>278965908054</td>
+      <td>Russia</td>
+      <td>iPhone</td>
+      <td>organic</td>
+      <td>4.99</td>
+      <td>5.04</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>590706206550</td>
+      <td>Russia</td>
+      <td>Mac</td>
+      <td>organic</td>
+      <td>4.99</td>
+      <td>6.96</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>326433527971</td>
+      <td>Russia</td>
+      <td>Android</td>
+      <td>TipTop</td>
+      <td>4.99</td>
+      <td>9.36</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>349773784594</td>
+      <td>Russia</td>
+      <td>Mac</td>
+      <td>organic</td>
+      <td>4.99</td>
+      <td>11.04</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1443</th>
+      <td>755840663757</td>
+      <td>Russia</td>
+      <td>iPhone</td>
+      <td>organic</td>
+      <td>4.99</td>
+      <td>4.00</td>
+    </tr>
+    <tr>
+      <th>1444</th>
+      <td>29210193047</td>
+      <td>Russia</td>
+      <td>iPhone</td>
+      <td>organic</td>
+      <td>4.99</td>
+      <td>6.40</td>
+    </tr>
+    <tr>
+      <th>1445</th>
+      <td>735968289275</td>
+      <td>Russia</td>
+      <td>Mac</td>
+      <td>FaceBoom</td>
+      <td>4.99</td>
+      <td>8.80</td>
+    </tr>
+    <tr>
+      <th>1446</th>
+      <td>40244695943</td>
+      <td>Russia</td>
+      <td>Android</td>
+      <td>organic</td>
+      <td>4.99</td>
+      <td>8.80</td>
+    </tr>
+    <tr>
+      <th>1447</th>
+      <td>841208777989</td>
+      <td>Russia</td>
+      <td>Mac</td>
+      <td>FaceBoom</td>
+      <td>4.99</td>
+      <td>12.00</td>
+    </tr>
+  </tbody>
+</table>
+<p>1448 rows × 6 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="52">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>user_data.to_csv(<span class="st">&#39;user_data.csv&#39;</span>,index<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+</div>
+<section id="24-маркетинговый-анализ" class="cell markdown">
+<h1>2.4 Маркетинговый анализ</h1>
+</section>
+<div class="cell markdown">
+<p>Посмотрим на среднее занчение</p>
+</div>
+<div class="cell code" data-execution_count="27">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>df.Revenue.<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="27">
+<pre><code>49693.36</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Посмотрим все расходы</p>
+</div>
+<div class="cell code" data-execution_count="28">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>df_ex.costs.<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="28">
+<pre><code>92505.29999999999</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Посмотрим на все доходы</p>
+</div>
+<div class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># на каждый канал</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>df.groupby([<span class="st">&#39;Channel&#39;</span>]).Revenue.<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="29">
+<pre><code>Channel
+AdNonSense             2378.60
+FaceBoom              18462.60
+LeapBob                1636.38
+MediaTornado            958.44
+OppleCreativeMedia     1340.67
+RocketSuperAds         2031.48
+TipTop                10875.22
+WahooNetBanner         2819.47
+YRabbit                 932.35
+lambdaMediaAds         1334.75
+organic                6923.40
+Name: Revenue, dtype: float64</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Сколько в среднем стоило привлечение одного покупателя из каждого
+источника?</p>
+</div>
+<div class="cell code" data-execution_count="33">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> average_cost_per_customer(source_costs, source_customers):</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> source_costs <span class="op">/</span> source_customers</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="35">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>avg_per_user <span class="op">=</span> average_cost_per_customer(df_ex.groupby([<span class="st">&#39;Channel&#39;</span>]).costs.<span class="bu">sum</span>()  , df.groupby([<span class="st">&#39;Channel&#39;</span>]).User_Id.count())</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>avg_per_user</span></code></pre></div>
+<div class="output execute_result" data-execution_count="35">
+<pre><code>Channel
+AdNonSense             8.889205
+FaceBoom               9.165424
+LeapBob                6.861069
+MediaTornado           6.118462
+OppleCreativeMedia     9.232833
+RocketSuperAds         5.207386
+TipTop                22.236049
+WahooNetBanner        11.370861
+YRabbit                5.722545
+lambdaMediaAds         6.922667
+organic                     NaN
+dtype: float64</code></pre>
+</div>
+</div>
+<section id="общая-окупаемость-рекламы" class="cell markdown">
+<h2>Общая окупаемость рекламы;</h2>
+</section>
+<div class="cell markdown">
+<p>Вот так можно найти окупаемость рекламы</p>
+</div>
+<div class="cell markdown">
+<p><img src="vertopal_f5395c2911804c0d83255afc9a48b99c/image.png"
+alt="image.png" /></p>
+</div>
+<div class="cell code" data-execution_count="84">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>o <span class="op">=</span> user_data[<span class="st">&#39;Revenue&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> user_data[<span class="st">&#39;costs&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>Roi <span class="op">=</span> (o<span class="op">-</span>i)<span class="op">/</span>i<span class="op">*</span><span class="fl">0.9</span></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>Roi</span></code></pre></div>
+<div class="output execute_result" data-execution_count="84">
+<pre><code>-0.5481468912082985</code></pre>
+</div>
+</div>
+<section id="окупаемость-рекламы-с-разбивкой-по-устройствам"
+class="cell markdown">
+<h2>Окупаемость рекламы с разбивкой по устройствам</h2>
+</section>
+<div class="cell markdown">
+<p>Вычесляем все по этой функции</p>
+</div>
+<div class="cell markdown">
+<p><img src="vertopal_f5395c2911804c0d83255afc9a48b99c/image.png"
+alt="image.png" /></p>
+</div>
+<div class="cell code" data-execution_count="86">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>iPhone_r <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Device&#39;</span>].isin([<span class="st">&#39;iPhone&#39;</span>]), <span class="st">&#39;costs&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>iPhone_r</span></code></pre></div>
+<div class="output execute_result" data-execution_count="86">
+<pre><code>8587.28</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="87">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>Mac_r <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Device&#39;</span>].isin([<span class="st">&#39;Mac&#39;</span>]), <span class="st">&#39;costs&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>Mac_r</span></code></pre></div>
+<div class="output execute_result" data-execution_count="87">
+<pre><code>4536.53</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="88">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>Android_r <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Device&#39;</span>].isin([<span class="st">&#39;Android&#39;</span>]), <span class="st">&#39;costs&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>Android_r</span></code></pre></div>
+<div class="output execute_result" data-execution_count="88">
+<pre><code>3875.45</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="89">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>PC_r <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Device&#39;</span>].isin([<span class="st">&#39;PC&#39;</span>]), <span class="st">&#39;costs&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>PC_r</span></code></pre></div>
+<div class="output execute_result" data-execution_count="89">
+<pre><code>1741.1399999999999</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="94">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>iPhone_d <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Device&#39;</span>].isin([<span class="st">&#39;iPhone&#39;</span>]), <span class="st">&#39;Revenue&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>iPhone_d</span></code></pre></div>
+<div class="output execute_result" data-execution_count="94">
+<pre><code>3244.590000000001</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="95">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>Mac_d <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Device&#39;</span>].isin([<span class="st">&#39;Mac&#39;</span>]), <span class="st">&#39;Revenue&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>Mac_d</span></code></pre></div>
+<div class="output execute_result" data-execution_count="95">
+<pre><code>1845.3200000000006</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="96">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>Android_d <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Device&#39;</span>].isin([<span class="st">&#39;Android&#39;</span>]), <span class="st">&#39;Revenue&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>Android_d</span></code></pre></div>
+<div class="output execute_result" data-execution_count="96">
+<pre><code>1499.0600000000004</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="97">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>PC_d <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Device&#39;</span>].isin([<span class="st">&#39;PC&#39;</span>]), <span class="st">&#39;Revenue&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>PC_d</span></code></pre></div>
+<div class="output execute_result" data-execution_count="97">
+<pre><code>737.5500000000002</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="98">
+<div class="sourceCode" id="cb52"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>Roi_iPhone <span class="op">=</span> (iPhone_d<span class="op">-</span>iPhone_r)<span class="op">/</span>iPhone_r<span class="op">*</span><span class="fl">0.9</span></span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a>Roi_iPhone</span></code></pre></div>
+<div class="output execute_result" data-execution_count="98">
+<pre><code>-0.5599469214931853</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="99">
+<div class="sourceCode" id="cb54"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>Roi_Mac <span class="op">=</span> (Mac_d<span class="op">-</span>Mac_r)<span class="op">/</span>Mac_r<span class="op">*</span><span class="fl">0.9</span></span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>Roi_Mac</span></code></pre></div>
+<div class="output execute_result" data-execution_count="99">
+<pre><code>-0.5339078546818823</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="100">
+<div class="sourceCode" id="cb56"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a>Roi_Android <span class="op">=</span> (Android_d<span class="op">-</span>Android_r)<span class="op">/</span>Android_r<span class="op">*</span><span class="fl">0.9</span></span>
+<span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a>Roi_Android</span></code></pre></div>
+<div class="output execute_result" data-execution_count="100">
+<pre><code>-0.5518716536144189</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="101">
+<div class="sourceCode" id="cb58"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a>Roi_PC <span class="op">=</span> (PC_d<span class="op">-</span>PC_r)<span class="op">/</span>PC_r<span class="op">*</span><span class="fl">0.9</span></span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a>Roi_PC</span></code></pre></div>
+<div class="output execute_result" data-execution_count="101">
+<pre><code>-0.5187583996691821</code></pre>
+</div>
+</div>
+<section id="окупаемость-рекламы-с-разбивкой-по-странам"
+class="cell markdown">
+<h2>Окупаемость рекламы с разбивкой по странам;</h2>
+</section>
+<div class="cell markdown">
+<p>Вычесляем все по этой функции</p>
+</div>
+<div class="cell markdown">
+<p><img src="vertopal_f5395c2911804c0d83255afc9a48b99c/image.png"
+alt="image.png" /></p>
+</div>
+<div class="cell code" data-execution_count="102">
+<div class="sourceCode" id="cb60"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a>Russia_r <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Region&#39;</span>].isin([<span class="st">&#39;Russia&#39;</span>]), <span class="st">&#39;costs&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a>Russia_r</span></code></pre></div>
+<div class="output execute_result" data-execution_count="102">
+<pre><code>18740.4</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="103">
+<div class="sourceCode" id="cb62"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a>Russia_d <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Region&#39;</span>].isin([<span class="st">&#39;Russia&#39;</span>]), <span class="st">&#39;Revenue&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a>Russia_d</span></code></pre></div>
+<div class="output execute_result" data-execution_count="103">
+<pre><code>7326.520000000002</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="104">
+<div class="sourceCode" id="cb64"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a>Roi_Russia <span class="op">=</span> (Russia_d<span class="op">-</span>Russia_r)<span class="op">/</span>Russia_r<span class="op">*</span><span class="fl">0.9</span></span>
+<span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a>Roi_Russia</span></code></pre></div>
+<div class="output execute_result" data-execution_count="104">
+<pre><code>-0.5481468912082985</code></pre>
+</div>
+</div>
+<section id="окупаемость-рекламы-с-разбивкой-по-рекламным-каналам"
+class="cell markdown">
+<h2>Окупаемость рекламы с разбивкой по рекламным каналам.</h2>
+</section>
+<div class="cell markdown">
+<p>Вычесляем все по этой функции</p>
+</div>
+<div class="cell markdown">
+<p><img src="vertopal_f5395c2911804c0d83255afc9a48b99c/image.png"
+alt="image.png" /></p>
+</div>
+<div class="cell code" data-execution_count="66">
+<div class="sourceCode" id="cb66"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a>organic_r <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Channel&#39;</span>].isin([<span class="st">&#39;organic&#39;</span>]), <span class="st">&#39;costs&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb66-2"><a href="#cb66-2" aria-hidden="true" tabindex="-1"></a>organic_r</span></code></pre></div>
+<div class="output execute_result" data-execution_count="66">
+<pre><code>10167.439999999999</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="67">
+<div class="sourceCode" id="cb68"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a>organic_d <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Channel&#39;</span>].isin([<span class="st">&#39;organic&#39;</span>]), <span class="st">&#39;Revenue&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb68-2"><a href="#cb68-2" aria-hidden="true" tabindex="-1"></a>organic_d</span></code></pre></div>
+<div class="output execute_result" data-execution_count="67">
+<pre><code>4013.090000000001</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="68">
+<div class="sourceCode" id="cb70"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a>TipTop_r <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Channel&#39;</span>].isin([<span class="st">&#39;TipTop&#39;</span>]), <span class="st">&#39;costs&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb70-2"><a href="#cb70-2" aria-hidden="true" tabindex="-1"></a>TipTop_r</span></code></pre></div>
+<div class="output execute_result" data-execution_count="68">
+<pre><code>2472.22</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="69">
+<div class="sourceCode" id="cb72"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a>TipTop_d <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Channel&#39;</span>].isin([<span class="st">&#39;TipTop&#39;</span>]), <span class="st">&#39;Revenue&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb72-2"><a href="#cb72-2" aria-hidden="true" tabindex="-1"></a>TipTop_d</span></code></pre></div>
+<div class="output execute_result" data-execution_count="69">
+<pre><code>942.1400000000002</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="70">
+<div class="sourceCode" id="cb74"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb74-1"><a href="#cb74-1" aria-hidden="true" tabindex="-1"></a>FaceBoom_r <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Channel&#39;</span>].isin([<span class="st">&#39;FaceBoom&#39;</span>]), <span class="st">&#39;costs&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb74-2"><a href="#cb74-2" aria-hidden="true" tabindex="-1"></a>FaceBoom_r</span></code></pre></div>
+<div class="output execute_result" data-execution_count="70">
+<pre><code>2869.79</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="71">
+<div class="sourceCode" id="cb76"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb76-1"><a href="#cb76-1" aria-hidden="true" tabindex="-1"></a>FaceBoom_d <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Channel&#39;</span>].isin([<span class="st">&#39;FaceBoom&#39;</span>]), <span class="st">&#39;Revenue&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb76-2"><a href="#cb76-2" aria-hidden="true" tabindex="-1"></a>FaceBoom_d</span></code></pre></div>
+<div class="output execute_result" data-execution_count="71">
+<pre><code>1119.7800000000002</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="72">
+<div class="sourceCode" id="cb78"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb78-1"><a href="#cb78-1" aria-hidden="true" tabindex="-1"></a>RocketSuperAds_r <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Channel&#39;</span>].isin([<span class="st">&#39;RocketSuperAds&#39;</span>]), <span class="st">&#39;costs&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb78-2"><a href="#cb78-2" aria-hidden="true" tabindex="-1"></a>RocketSuperAds_r</span></code></pre></div>
+<div class="output execute_result" data-execution_count="72">
+<pre><code>1234.6249999999998</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="73">
+<div class="sourceCode" id="cb80"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb80-1"><a href="#cb80-1" aria-hidden="true" tabindex="-1"></a>RocketSuperAds_d <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Channel&#39;</span>].isin([<span class="st">&#39;RocketSuperAds&#39;</span>]), <span class="st">&#39;Revenue&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb80-2"><a href="#cb80-2" aria-hidden="true" tabindex="-1"></a>RocketSuperAds_d</span></code></pre></div>
+<div class="output execute_result" data-execution_count="73">
+<pre><code>465.07000000000016</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="74">
+<div class="sourceCode" id="cb82"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb82-1"><a href="#cb82-1" aria-hidden="true" tabindex="-1"></a>YRabbit_r <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Channel&#39;</span>].isin([<span class="st">&#39;YRabbit&#39;</span>]), <span class="st">&#39;costs&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb82-2"><a href="#cb82-2" aria-hidden="true" tabindex="-1"></a>YRabbit_r</span></code></pre></div>
+<div class="output execute_result" data-execution_count="74">
+<pre><code>1185.1549999999997</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="75">
+<div class="sourceCode" id="cb84"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb84-1"><a href="#cb84-1" aria-hidden="true" tabindex="-1"></a>YRabbit_d <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Channel&#39;</span>].isin([<span class="st">&#39;YRabbit&#39;</span>]), <span class="st">&#39;Revenue&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb84-2"><a href="#cb84-2" aria-hidden="true" tabindex="-1"></a>YRabbit_d</span></code></pre></div>
+<div class="output execute_result" data-execution_count="75">
+<pre><code>451.10000000000014</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="76">
+<div class="sourceCode" id="cb86"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb86-1"><a href="#cb86-1" aria-hidden="true" tabindex="-1"></a>MediaTornado_r <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Channel&#39;</span>].isin([<span class="st">&#39;MediaTornado&#39;</span>]), <span class="st">&#39;costs&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb86-2"><a href="#cb86-2" aria-hidden="true" tabindex="-1"></a>MediaTornado_r</span></code></pre></div>
+<div class="output execute_result" data-execution_count="76">
+<pre><code>811.17</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="77">
+<div class="sourceCode" id="cb88"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb88-1"><a href="#cb88-1" aria-hidden="true" tabindex="-1"></a>MediaTornado_d <span class="op">=</span> user_data.loc[user_data[<span class="st">&#39;Channel&#39;</span>].isin([<span class="st">&#39;MediaTornado&#39;</span>]), <span class="st">&#39;Revenue&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb88-2"><a href="#cb88-2" aria-hidden="true" tabindex="-1"></a>MediaTornado_d</span></code></pre></div>
+<div class="output execute_result" data-execution_count="77">
+<pre><code>335.3400000000001</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="78">
+<div class="sourceCode" id="cb90"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb90-1"><a href="#cb90-1" aria-hidden="true" tabindex="-1"></a>Roi_organic <span class="op">=</span> (organic_d<span class="op">-</span>organic_r)<span class="op">/</span>organic_r<span class="op">*</span><span class="fl">0.9</span></span>
+<span id="cb90-2"><a href="#cb90-2" aria-hidden="true" tabindex="-1"></a>Roi_organic</span></code></pre></div>
+<div class="output execute_result" data-execution_count="78">
+<pre><code>-0.5447698732424286</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="79">
+<div class="sourceCode" id="cb92"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb92-1"><a href="#cb92-1" aria-hidden="true" tabindex="-1"></a>Roi_TipTop <span class="op">=</span> (TipTop_d<span class="op">-</span>TipTop_r)<span class="op">/</span>TipTop_r<span class="op">*</span><span class="fl">0.9</span></span>
+<span id="cb92-2"><a href="#cb92-2" aria-hidden="true" tabindex="-1"></a>Roi_TipTop</span></code></pre></div>
+<div class="output execute_result" data-execution_count="79">
+<pre><code>-0.5570183883311354</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="80">
+<div class="sourceCode" id="cb94"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb94-1"><a href="#cb94-1" aria-hidden="true" tabindex="-1"></a>Roi_FaceBoom <span class="op">=</span> (FaceBoom_d<span class="op">-</span>FaceBoom_r)<span class="op">/</span>FaceBoom_r<span class="op">*</span><span class="fl">0.9</span></span>
+<span id="cb94-2"><a href="#cb94-2" aria-hidden="true" tabindex="-1"></a>Roi_FaceBoom</span></code></pre></div>
+<div class="output execute_result" data-execution_count="80">
+<pre><code>-0.5488237815310527</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="81">
+<div class="sourceCode" id="cb96"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb96-1"><a href="#cb96-1" aria-hidden="true" tabindex="-1"></a>Roi_RocketSuperAds <span class="op">=</span> (RocketSuperAds_d<span class="op">-</span>RocketSuperAds_r)<span class="op">/</span>RocketSuperAds_r<span class="op">*</span><span class="fl">0.9</span></span>
+<span id="cb96-2"><a href="#cb96-2" aria-hidden="true" tabindex="-1"></a>Roi_RocketSuperAds</span></code></pre></div>
+<div class="output execute_result" data-execution_count="81">
+<pre><code>-0.5609796496912016</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="82">
+<div class="sourceCode" id="cb98"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb98-1"><a href="#cb98-1" aria-hidden="true" tabindex="-1"></a>Roi_YRabbit <span class="op">=</span> (YRabbit_d<span class="op">-</span>YRabbit_r)<span class="op">/</span>YRabbit_r<span class="op">*</span><span class="fl">0.9</span></span>
+<span id="cb98-2"><a href="#cb98-2" aria-hidden="true" tabindex="-1"></a>Roi_YRabbit</span></code></pre></div>
+<div class="output execute_result" data-execution_count="82">
+<pre><code>-0.5574372128540147</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="83">
+<div class="sourceCode" id="cb100"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb100-1"><a href="#cb100-1" aria-hidden="true" tabindex="-1"></a>Roi_MediaTornado <span class="op">=</span> (MediaTornado_d<span class="op">-</span>MediaTornado_r)<span class="op">/</span>MediaTornado_r<span class="op">*</span><span class="fl">0.9</span></span>
+<span id="cb100-2"><a href="#cb100-2" aria-hidden="true" tabindex="-1"></a>Roi_MediaTornado</span></code></pre></div>
+<div class="output execute_result" data-execution_count="83">
+<pre><code>-0.5279374237212914</code></pre>
+</div>
+</div>
+<section id="результаты" class="cell markdown">
+<h2>Результаты</h2>
+</section>
+<div class="cell markdown">
+<p>Реклама в любом случаи неокупалась на -0.50%</p>
+</div>
+<section id="25-подготовка-отчета" class="cell markdown">
+<h1>2.5 Подготовка отчета</h1>
+</section>
+<div class="cell markdown">
+<p>В результате этой сессии были выполнены почти все задача</p>
+<p>2.1 Построение дашборда</p>
+<ul>
+<li>Была построена Интерактивная информационная панель которая наглядно
+представлять, визуализировать и анализировать данные. Аналитическая
+система позволяет пользователю:</li>
+</ul>
+<p>автоматизировать работу с данными;</p>
+<p>анализировать все в реальном времени;</p>
+<p>видеть все главные метрики на одном экране;</p>
+<p>легко считывать информацию и делать выводы</p>
+<p>2.2 Исследовательский анализ данных в информационной панели</p>
+<ul>
+<li>Разработанная информационная панель позволяет пользователю проводить
+анализ продуктовых метрик и показателей электронной коммерции. были
+вычислены такие характеристики, как заинтересованность клиента в
+продукте (DAU, WAU и MAU), количество времени, проведенное в приложении,
+распределение привлеченных пользователей с разбивкой по различным
+показателям(страна,устройство,канал,привлечения). Аналитическая панель
+содержит анализ продаж для онлайн-торговли.</li>
+</ul>
+<p>2.3 Создание профилей пользователей</p>
+<ul>
+<li>Используя ранее определенную функцию построен набор данных с
+профилями пользователей. Было определено:</li>
+</ul>
+<p>Из каких стран приходят посетители? Какие страны дают больше всего
+платящих пользователей? Russia</p>
+<p>Какими устройствами они пользуются? С каких устройств чаще всего
+заходят платящие пользователи? iPhone</p>
+<p>По каким рекламным каналам шло привлечение пользователей? Какие
+каналы приносят больше всего платящих пользователей? organic</p>
+<p>2.4 Маркетинговый анализ</p>
+<ul>
+<li>После проведения маркетингового анализа было расчитано:</li>
+</ul>
+<p>Сколько денег потратили (всего / на каждый источник / по
+времени)?</p>
+<p>Сколько в среднем стоило привлечение одного покупателя из каждого
+источника?</p>
+<p>Оценена окупаемость рекламы для привлечения пользователей. С помощью
+ранее разработанных функций проанализированно:</p>
+<p>Общую окупаемость рекламы;</p>
+<p>Окупаемость рекламы с разбивкой по устройствам;</p>
+<p>Окупаемость рекламы с разбивкой по странам;</p>
+<p>Окупаемость рекламы с разбивкой по рекламным каналам.</p>
+<p>2.5 Подготовка отчета</p>
+<ul>
+<li>Был подготовлен отчет о проделанной работе по итогам сессии, в
+котором представлены результаты, выводы и обоснования выбора по каждому
+разделу задания. Результаты работы состоят из отчетов в форматах: .ipynb
+и .html, а также исходников с возможностью перекомпиляции. Архив
+Data.zip содержит все результаты выполнения модуля, а также все
+необходимые файлы для запуска и проверки участков кода. В файле
+Readme.txt описано содержимое результирующих файлов архива
+Data.zip.</li>
+</ul>
+</div>
+</body>
+</html>

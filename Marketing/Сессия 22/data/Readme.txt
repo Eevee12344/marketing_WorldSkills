@@ -9,6 +9,3 @@ Data.zip - Хранятся все данные о проделанной раб
       Report.ipynb - написано выше
       Report.html - написано выше
       Readme.txt - доп информация
-      expenses.csv - первоначальные данные
-      orders.csv - первоначальные данные
-      visatation.csv - первоначальные данные
